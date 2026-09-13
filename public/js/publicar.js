@@ -18,9 +18,14 @@ articleForm.addEventListener("submit", async (event) => {
   try {
     const response = await fetch("/api/articles", {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: { "Content-Type": "application/json", "x-admin-key": getAdminKey() },
       body: JSON.stringify(payload),
     });
+
+    if (response.status === 401) {
+      clearAdminKey();
+      throw new Error("Clave de administrador incorrecta. Intenta de nuevo.");
+    }
 
     if (!response.ok) {
       const error = await response.json();

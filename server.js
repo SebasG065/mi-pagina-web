@@ -4,7 +4,16 @@ const path = require("path");
 const crypto = require("crypto");
 
 const app = express();
+app.set("trust proxy", true);
 const PORT = process.env.PORT || 3000;
+const ADMIN_KEY = process.env.ADMIN_KEY || "";
+
+function requireAdmin(req, res, next) {
+  if (!ADMIN_KEY || req.get("x-admin-key") !== ADMIN_KEY) {
+    return res.status(401).json({ error: "No autorizado" });
+  }
+  next();
+}
 const DATA_FILE = path.join(__dirname, "data", "articles.json");
 const CONFIG_FILE = path.join(__dirname, "data", "config.json");
 const SUBSCRIBERS_FILE = path.join(__dirname, "data", "subscribers.json");
@@ -194,7 +203,7 @@ app.get("/api/articles/:id", (req, res) => {
   res.json(article);
 });
 
-app.post("/api/articles", (req, res) => {
+app.post("/api/articles", requireAdmin, (req, res) => {
   const { title, summary, content, author, category, imageUrl } = req.body;
 
   if (!title || !summary || !content) {
@@ -220,7 +229,7 @@ app.post("/api/articles", (req, res) => {
   res.status(201).json(newArticle);
 });
 
-app.put("/api/articles/:id", (req, res) => {
+app.put("/api/articles/:id", requireAdmin, (req, res) => {
   const articles = readArticles();
   const index = articles.findIndex((a) => a.id === req.params.id);
   if (index === -1) {
@@ -244,7 +253,7 @@ app.put("/api/articles/:id", (req, res) => {
   res.json(articles[index]);
 });
 
-app.delete("/api/articles/:id", (req, res) => {
+app.delete("/api/articles/:id", requireAdmin, (req, res) => {
   const articles = readArticles();
   const index = articles.findIndex((a) => a.id === req.params.id);
   if (index === -1) {
