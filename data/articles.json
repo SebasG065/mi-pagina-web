@@ -1,0 +1,612 @@
+[
+  {
+    "id": "1183d10e-256e-4dc6-b8b9-34178ec6576b",
+    "title": "La chispa detrás de Binario",
+    "summary": "Antes de ser un blog de tecnología, este proyecto fue una promesa hecha por amor. Esta es la historia de por qué existe.",
+    "content": "Todo proyecto necesita una razón para existir, y la mía tiene nombre propio: mi novia.\n\nCuando empecé a armar este sitio, no fue solo por aprender a programar un poco más o por tener un blog de tecnología para presumir. Fue porque quería demostrarle a alguien que las ideas, cuando se sostienen con cariño y constancia, se vuelven reales. Cada línea de código, cada artículo publicado y cada pequeño detalle de este sitio lleva un poco de esa motivación.\n\nBinario nació como un ejercicio técnico, pero se terminó convirtiendo en algo más: la prueba de que puedo empezar algo, cuidarlo y llevarlo hasta el final, igual que quiero hacerlo con ella. Así que si algún día te preguntas de dónde salió la disciplina para escribir 60 artículos sobre tecnología, la respuesta corta es: de quien me inspira a ser mejor todos los días.\n\nGracias por ser mi motivo. Este proyecto también es tuyo.",
+    "author": "Sebastian Guavita",
+    "category": "Historia personal",
+    "imageUrl": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-09T22:16:52.005Z"
+  },
+  {
+    "id": "32bde9e6-3741-4978-bdcc-0ba2878672a7",
+    "title": "La era de la IA generativa: cómo está cambiando la forma en que creamos",
+    "summary": "Los modelos generativos ya no solo escriben texto: componen música, diseñan interfaces y generan video. Repasamos el estado actual de la tecnología y hacia dónde va.",
+    "content": "En los últimos años, la inteligencia artificial generativa pasó de ser una curiosidad de laboratorio a una herramienta cotidiana. Modelos capaces de escribir, programar, diseñar imágenes y componer música conviven hoy en flujos de trabajo reales, desde estudios de diseño hasta redacciones de noticias.\n\nLo que hace distinta a esta ola de IA es su capacidad de generalizar: un mismo modelo puede redactar un correo, resumir un informe técnico o ayudar a depurar código, adaptándose al contexto que se le da. Esto ha llevado a que empresas de todos los tamaños integren asistentes de IA en sus procesos, buscando ganar velocidad sin sacrificar calidad.\n\nSin embargo, el crecimiento acelerado también trae preguntas importantes: ¿cómo se garantiza que la información generada sea precisa?, ¿quién es responsable cuando un modelo comete un error?, ¿cómo se protege la propiedad intelectual del contenido usado para entrenar estos sistemas? Estas discusiones están dando forma a nuevas regulaciones en distintas partes del mundo.\n\nPara los próximos años, se espera que los modelos sean más eficientes, capaces de correr en dispositivos locales sin depender siempre de la nube, y que se integren de forma más transparente en herramientas que ya usamos a diario. La IA generativa no reemplaza el criterio humano, pero cada vez es más difícil imaginar un flujo de trabajo profesional sin ella.",
+    "author": "Redacción Tech",
+    "category": "Inteligencia Artificial",
+    "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-09T22:18:30.096Z"
+  },
+  {
+    "id": "b945cccb-0bc2-4ecd-9ed5-6278b7f515f3",
+    "title": "Computación cuántica: el salto que promete revolucionar la industria",
+    "summary": "Los qubits prometen resolver problemas hoy imposibles para las computadoras clásicas. ¿Qué tan cerca estamos de ver aplicaciones reales fuera del laboratorio?",
+    "content": "A diferencia de los bits tradicionales, que solo pueden valer 0 o 1, los qubits pueden existir en superposición, representando múltiples estados a la vez. Esta propiedad, combinada con el entrelazamiento cuántico, permite en teoría resolver ciertos problemas de forma exponencialmente más rápida que cualquier computadora clásica.\n\nDurante la última década, empresas y laboratorios de investigación han avanzado en la construcción de procesadores cuánticos cada vez más estables, reduciendo la tasa de error y aumentando el número de qubits utilizables. Aun así, la tecnología sigue siendo extremadamente sensible: mantener un estado cuántico estable requiere temperaturas cercanas al cero absoluto y un aislamiento casi perfecto de cualquier interferencia externa.\n\nLas aplicaciones más prometedoras no están en reemplazar a las computadoras que usamos todos los días, sino en resolver problemas muy específicos: simulación de moléculas para el descubrimiento de nuevos medicamentos, optimización de rutas logísticas complejas, o el desarrollo de nuevos materiales. También representa un desafío para la criptografía actual, lo que ha impulsado la investigación en algoritmos resistentes a ataques cuánticos.\n\nTodavía estamos en una etapa temprana: la mayoría de los sistemas cuánticos actuales son experimentales y conviven con las computadoras clásicas en modelos híbridos. Pero el ritmo de inversión y los avances recientes sugieren que las primeras aplicaciones comerciales de impacto real podrían llegar antes de lo que muchos esperaban.",
+    "author": "Redacción Tech",
+    "category": "Computación Cuántica",
+    "imageUrl": "https://images.unsplash.com/photo-1532187643603-ba119ca4109e?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-09T22:18:30.102Z"
+  },
+  {
+    "id": "f1b5bfbe-1ec1-491e-ba0b-8bc666eb321e",
+    "title": "Ciberseguridad: las amenazas que toda empresa debería vigilar",
+    "summary": "El phishing dirigido, el ransomware y los ataques a la cadena de suministro de software siguen siendo las principales amenazas. Un repaso de cómo protegerse.",
+    "content": "A medida que las organizaciones dependen más de sistemas digitales interconectados, la superficie de ataque también crece. El phishing sigue siendo la puerta de entrada más común para los atacantes, pero cada vez es más sofisticado: correos que imitan perfectamente la comunicación interna de una empresa, o mensajes generados con ayuda de IA que resultan casi indistinguibles de los legítimos.\n\nEl ransomware continúa siendo una de las amenazas más costosas. Los grupos detrás de estos ataques ya no solo cifran la información, sino que también la roban y amenazan con publicarla si no se paga un rescate, una táctica conocida como doble extorsión. Esto ha llevado a muchas empresas a replantear sus estrategias de respaldo, asegurándose de tener copias de seguridad aisladas de la red principal.\n\nOtro frente de preocupación es la cadena de suministro de software: comprometer una sola librería o dependencia ampliamente utilizada puede dar a un atacante acceso indirecto a miles de organizaciones. Por eso, auditar las dependencias de código abierto y mantenerlas actualizadas se ha vuelto una práctica esencial, no opcional.\n\nLas recomendaciones básicas siguen siendo las más efectivas: autenticación multifactor en todos los accesos críticos, capacitación constante del personal, parches de seguridad aplicados sin demora y planes de respuesta a incidentes probados con regularidad. La ciberseguridad ya no es solo un tema del equipo técnico, sino una responsabilidad compartida por toda la organización.",
+    "author": "Redacción Tech",
+    "category": "Ciberseguridad",
+    "imageUrl": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-09T22:18:30.105Z"
+  },
+  {
+    "id": "5d520d4e-c684-4b26-abe6-729db5df5c1e",
+    "title": "Vehículos autónomos: ¿qué tan cerca estamos de las calles sin conductor?",
+    "summary": "Entre pruebas piloto en varias ciudades y desafíos regulatorios, la conducción autónoma avanza más lento de lo prometido, pero de forma constante.",
+    "content": "Durante años se prometió que para esta década las calles estarían llenas de vehículos completamente autónomos. La realidad ha sido más compleja: aunque existen servicios de taxis sin conductor operando en zonas delimitadas de algunas ciudades, la conducción autónoma generalizada, capaz de manejar cualquier condición climática y cualquier tipo de calle, sigue siendo un desafío técnico enorme.\n\nEl problema no es solo hacer que el vehículo \"vea\" su entorno mediante cámaras, radar y sensores lídar, sino que tome decisiones seguras en situaciones ambiguas: un peatón que duda si cruzar, un cono de construcción fuera de lugar, o el comportamiento impredecible de otro conductor humano. Estos casos límite son los que más tiempo de desarrollo consumen.\n\nLa regulación también juega un papel central. Cada país, y en algunos casos cada ciudad, define de forma distinta qué se necesita para autorizar la operación de vehículos autónomos, lo que obliga a las empresas a adaptar su tecnología a marcos legales muy diferentes entre sí.\n\nA corto plazo, es más probable que sigamos viendo una expansión gradual de servicios autónomos en zonas controladas, junto con más funciones de asistencia avanzada en autos particulares, antes que una adopción masiva de vehículos completamente autónomos en cualquier calle del mundo.",
+    "author": "Redacción Tech",
+    "category": "Movilidad",
+    "imageUrl": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-09T22:18:30.107Z"
+  },
+  {
+    "id": "28eb616d-a142-4418-bb12-a6a72743ed67",
+    "title": "Realidad aumentada y el futuro de la interacción digital",
+    "summary": "Más allá de los videojuegos, la realidad aumentada empieza a encontrar su lugar en la industria, la educación y el comercio. ¿Está lista para el gran público?",
+    "content": "La realidad aumentada (AR) superpone información digital sobre el mundo físico, y a diferencia de la realidad virtual, no busca aislar al usuario sino complementar lo que ya está viendo. Esta diferencia la hace especialmente útil en contextos prácticos: un técnico que ve instrucciones de reparación superpuestas sobre una máquina real, o un comprador que visualiza cómo quedaría un mueble en su sala antes de comprarlo.\n\nEn el comercio, cada vez más aplicaciones permiten \"probar\" productos virtualmente, desde maquillaje hasta calzado, reduciendo las devoluciones y mejorando la confianza de compra. En la industria, la AR se usa para entrenamiento de personal en entornos complejos o peligrosos, sin los riesgos de una situación real.\n\nEl principal obstáculo para su adopción masiva sigue siendo el hardware: los lentes de realidad aumentada actuales todavía son costosos, tienen autonomía limitada o resultan poco prácticos para el uso diario. Mientras tanto, el teléfono móvil sigue siendo la puerta de entrada más común a experiencias de AR, a través de aplicaciones que usan la cámara del dispositivo.\n\nA medida que el hardware se vuelva más ligero, económico y con mejor autonomía, es probable que la realidad aumentada deje de sentirse como una novedad y se convierta en una capa más de cómo interactuamos con la información en nuestro día a día.",
+    "author": "Redacción Tech",
+    "category": "Realidad Aumentada",
+    "imageUrl": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-09T22:18:30.109Z"
+  },
+  {
+    "id": "2926528c-93b6-43b4-b826-6e4293f5638d",
+    "title": "Chips más pequeños, más potentes: el estado actual de los semiconductores",
+    "summary": "La miniaturización de transistores se acerca a límites físicos. Así es como la industria de los semiconductores sigue ganando rendimiento sin depender solo de hacer los chips más pequeños.",
+    "content": "Durante décadas, la industria de los semiconductores avanzó siguiendo la conocida Ley de Moore: aproximadamente cada dos años, la cantidad de transistores que caben en un chip se duplicaba. Sin embargo, a medida que los transistores se acercan al tamaño de unos pocos átomos, seguir reduciendo su escala se ha vuelto extremadamente difícil y costoso.\n\nPara seguir ganando rendimiento, los fabricantes han recurrido a nuevas estrategias. Una de las más importantes es el diseño en 3D: en lugar de colocar todos los componentes en una sola capa plana, ahora se apilan verticalmente, permitiendo más densidad sin necesidad de transistores más pequeños. También se ha vuelto común combinar varios \"chiplets\" especializados en un mismo empaque, en lugar de depender de un único chip monolítico.\n\nOtro cambio relevante es la especialización: en vez de procesadores de propósito general que hacen un poco de todo, cada vez es más común encontrar chips diseñados específicamente para tareas como inteligencia artificial, procesamiento gráfico o cifrado, logrando mucho mejor rendimiento y eficiencia energética para esas tareas puntuales.\n\nEl resultado es que, aunque la miniaturización pura se está acercando a sus límites físicos, la industria sigue encontrando formas creativas de aumentar el rendimiento. La próxima gran ola de avances probablemente vendrá menos de \"chips más pequeños\" y más de arquitecturas más inteligentes, especializadas y eficientes.",
+    "author": "Redacción Tech",
+    "category": "Hardware",
+    "imageUrl": "https://images.unsplash.com/photo-1562408590-e32931084e23?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-09T22:18:30.110Z"
+  },
+  {
+    "id": "e631aaed-085c-498b-a8cf-8874ec65bfad",
+    "title": "Modelos de lenguaje pequeños: la tendencia hacia la IA eficiente",
+    "summary": "No todo es construir modelos cada vez más grandes: cada vez más empresas apuestan por modelos compactos que corren en el propio dispositivo.",
+    "content": "Durante años, la carrera de la inteligencia artificial pareció definirse por un solo criterio: modelos cada vez más grandes, entrenados con más datos y más poder de cómputo. Sin embargo, una tendencia paralela ha ganado fuerza: los modelos de lenguaje pequeños, diseñados para ser eficientes, rápidos y capaces de ejecutarse directamente en un teléfono o una laptop sin depender de la nube.\n\nEstos modelos compactos no buscan igualar a los sistemas más grandes en tareas generales, sino ser muy buenos en tareas específicas, con menor consumo de energía y mayor privacidad, ya que los datos no necesitan salir del dispositivo. Para muchas aplicaciones cotidianas, como el autocompletado de texto o los asistentes de voz, esta eficiencia importa más que tener el modelo más potente del mercado, y marca un camino donde la IA se vuelve más accesible sin depender siempre de una conexión a internet.",
+    "author": "Redacción Tech",
+    "category": "Inteligencia Artificial",
+    "imageUrl": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.047Z"
+  },
+  {
+    "id": "ae8c3323-c0e9-4553-a62c-92ef3f1d8e75",
+    "title": "Agentes de IA: cuando los modelos empiezan a actuar por su cuenta",
+    "summary": "Más allá de responder preguntas, los nuevos sistemas de IA pueden planificar tareas, usar herramientas y ejecutar acciones de varios pasos por sí solos.",
+    "content": "Un asistente de IA tradicional espera una instrucción y responde. Un agente de IA va un paso más allá: puede recibir un objetivo general, dividirlo en pasos, decidir qué herramientas usar (buscar información, ejecutar código, llenar un formulario) y ajustar su plan sobre la marcha si algo no sale como esperaba.\n\nEsta capacidad abre posibilidades interesantes: automatizar tareas administrativas completas, investigar un tema y preparar un resumen, o gestionar procesos que antes requerían supervisión humana constante. También plantea nuevos desafíos, especialmente en torno al control y la seguridad: un agente que puede actuar de forma autónoma necesita límites claros sobre qué puede y qué no puede hacer sin confirmación humana. El diseño de esos límites se está convirtiendo en un área de trabajo tan importante como el desarrollo del propio modelo.",
+    "author": "Redacción Tech",
+    "category": "Inteligencia Artificial",
+    "imageUrl": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.060Z"
+  },
+  {
+    "id": "23c81ec3-759a-45d9-990a-729dbc3d9d47",
+    "title": "IA en la medicina: diagnósticos más rápidos y precisos",
+    "summary": "Del análisis de imágenes médicas a la detección temprana de enfermedades, la inteligencia artificial se está integrando cada vez más en la práctica clínica.",
+    "content": "Uno de los usos más prometedores de la inteligencia artificial está en el análisis de imágenes médicas: radiografías, resonancias y tomografías donde un modelo entrenado puede ayudar a detectar patrones sutiles que a simple vista son difíciles de identificar, sirviendo como una segunda opinión para el personal médico.\n\nMás allá del diagnóstico por imagen, la IA también se aplica al análisis de grandes volúmenes de historiales clínicos para identificar factores de riesgo, o para acelerar la investigación de nuevos tratamientos simulando cómo podrían interactuar distintas moléculas. Es importante entender que estas herramientas no reemplazan el criterio médico: funcionan como apoyo, ayudando a priorizar casos y reducir tiempos, mientras la decisión final sigue en manos de profesionales de la salud capacitados para interpretar el contexto completo de cada paciente.",
+    "author": "Redacción Tech",
+    "category": "Inteligencia Artificial",
+    "imageUrl": "https://images.unsplash.com/photo-1484417894907-623942c8ee29?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.064Z"
+  },
+  {
+    "id": "ae592b3e-f5be-444b-b2da-d2b73dba0e71",
+    "title": "Criptografía post-cuántica: preparando internet para la próxima década",
+    "summary": "Si las computadoras cuánticas maduran lo suficiente, podrían romper buena parte del cifrado que protege internet hoy. Así se están preparando para ese escenario.",
+    "content": "Gran parte de la seguridad digital actual, desde la banca en línea hasta la mensajería privada, depende de problemas matemáticos que son extremadamente difíciles de resolver para una computadora clásica. El problema es que una computadora cuántica suficientemente potente podría resolver algunos de esos problemas en un tiempo razonable, dejando obsoletos los métodos de cifrado actuales.\n\nPor eso, distintos organismos de estandarización ya están definiendo algoritmos de criptografía \"post-cuántica\": métodos de cifrado diseñados para resistir tanto a computadoras clásicas como cuánticas. La transición no es instantánea, ya que requiere actualizar protocolos usados en prácticamente todo internet. Por eso muchas organizaciones ya empezaron a planificar su migración, incluso antes de que existan computadoras cuánticas capaces de romper el cifrado actual, para evitar quedar expuestas cuando esa tecnología madure.",
+    "author": "Redacción Tech",
+    "category": "Computación Cuántica",
+    "imageUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.068Z"
+  },
+  {
+    "id": "6a223f45-a79e-4a9d-9007-d48a340a9c67",
+    "title": "Qué empresas están liderando la carrera cuántica",
+    "summary": "Grandes tecnológicas, startups especializadas y gobiernos compiten por avanzar en computación cuántica. Un panorama de los distintos enfoques que se están probando.",
+    "content": "No existe un único camino hacia la computación cuántica práctica. Algunas empresas apuestan por qubits superconductores, que requieren temperaturas extremadamente bajas pero han mostrado avances constantes en estabilidad. Otras exploran iones atrapados, fotones o incluso enfoques topológicos, cada uno con sus propias ventajas y desafíos técnicos.\n\nJunto a las grandes tecnológicas, ha surgido un ecosistema de startups especializadas centradas en nichos específicos: desde el desarrollo de software para programar computadoras cuánticas, hasta empresas que ofrecen acceso a estos sistemas por internet, permitiendo experimentar sin necesidad de construir el hardware. Los gobiernos también han entrado en la carrera, considerando la computación cuántica una tecnología estratégica, con programas de inversión pública destinados a no quedar rezagados en un campo que podría redefinir sectores enteros, desde la farmacéutica hasta la seguridad nacional.",
+    "author": "Redacción Tech",
+    "category": "Computación Cuántica",
+    "imageUrl": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.072Z"
+  },
+  {
+    "id": "60b67e09-30b0-4446-92db-ba67d2cfddde",
+    "title": "Zero Trust: el modelo de seguridad que están adoptando las empresas",
+    "summary": "En vez de confiar en todo lo que está dentro de la red corporativa, el modelo Zero Trust parte de una premisa simple: nunca confiar, siempre verificar.",
+    "content": "Durante mucho tiempo, la seguridad corporativa funcionó como un castillo con murallas: una vez dentro de la red de la empresa, se asumía que un usuario o dispositivo era confiable. El problema es que, si un atacante lograba entrar, podía moverse con relativa libertad. El modelo Zero Trust rompe con esa lógica: cada solicitud de acceso se verifica, sin importar si viene de dentro o fuera de la red.\n\nEn la práctica, esto significa verificar la identidad del usuario, el estado del dispositivo y el contexto de cada solicitud antes de otorgar acceso, y limitar ese acceso solo a lo estrictamente necesario para la tarea. Aunque implementarlo requiere repensar la arquitectura de red y los sistemas de identidad, cada vez más organizaciones lo adoptan como respuesta a un entorno de amenazas donde el perímetro tradicional ya no es suficiente, especialmente con el trabajo remoto y los servicios en la nube.",
+    "author": "Redacción Tech",
+    "category": "Ciberseguridad",
+    "imageUrl": "https://images.unsplash.com/photo-1584433144859-1fc3ab64a957?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.075Z"
+  },
+  {
+    "id": "8e8f89fd-66bc-46a5-9c3e-9314687e975c",
+    "title": "Deepfakes: el nuevo desafío para la verificación de identidad",
+    "summary": "Videos y audios generados por IA que imitan a personas reales ya se usan en fraudes y desinformación. Así están respondiendo empresas y plataformas.",
+    "content": "La misma tecnología que permite generar voces e imágenes realistas con inteligencia artificial también puede usarse para crear deepfakes: contenido falso que imita la apariencia o la voz de una persona real. Ya se han reportado casos de fraudes donde una llamada con una voz clonada convenció a empleados de realizar transferencias, aprovechando la confianza en una figura de autoridad conocida.\n\nFrente a esto, están surgiendo distintas líneas de defensa: sistemas que detectan señales sutiles de manipulación en audio y video, marcas de agua digitales que identifican contenido generado por IA, y protocolos de verificación adicionales para operaciones sensibles, como confirmar solicitudes inusuales por un canal distinto al que llegaron. La detección de deepfakes se ha convertido en una carrera constante, donde tanto las herramientas para crearlos como las herramientas para identificarlos siguen evolucionando en paralelo.",
+    "author": "Redacción Tech",
+    "category": "Ciberseguridad",
+    "imageUrl": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.079Z"
+  },
+  {
+    "id": "ca7f733a-9d9e-46f4-87d1-56e498ffdebf",
+    "title": "Cómo funcionan los ataques de ingeniería social modernos",
+    "summary": "No todos los ciberataques explotan fallas técnicas: muchos explotan la confianza y los hábitos humanos. Un repaso de las tácticas más comunes hoy.",
+    "content": "La ingeniería social se basa en manipular a una persona para que revele información o realice una acción que compromete la seguridad, sin necesidad de explotar ninguna vulnerabilidad técnica. El phishing por correo sigue siendo la táctica más conocida, pero ha evolucionado hacia formas más dirigidas, como el \"spear phishing\", que utiliza información personal específica para parecer más creíble.\n\nOtras tácticas incluyen el \"pretexting\", donde el atacante se hace pasar por alguien de confianza (soporte técnico, un proveedor, un compañero de trabajo) para obtener acceso o información, y ataques que combinan varios canales, como un mensaje de texto seguido de una llamada telefónica para reforzar la credibilidad del engaño. La mejor defensa sigue siendo la misma de siempre: verificar antes de actuar, especialmente ante solicitudes urgentes o inusuales, y fomentar una cultura donde reportar un posible engaño no genere vergüenza, sino que se vea como una buena práctica.",
+    "author": "Redacción Tech",
+    "category": "Ciberseguridad",
+    "imageUrl": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.082Z"
+  },
+  {
+    "id": "c85d63cc-8627-4b52-9933-53a87ce3e2b9",
+    "title": "Baterías de estado sólido: la próxima revolución de los eléctricos",
+    "summary": "Prometen más autonomía, cargas más rápidas y mayor seguridad que las baterías de litio actuales. ¿Qué tan cerca están de llegar a los autos eléctricos?",
+    "content": "Las baterías de iones de litio actuales usan un electrolito líquido para permitir el movimiento de iones entre los electrodos. Las baterías de estado sólido reemplazan ese líquido por un material sólido, lo que en teoría permite almacenar más energía en el mismo espacio, cargar más rápido y reducir el riesgo de incendios, uno de los puntos débiles conocidos de la tecnología actual.\n\nEl desafío no es tanto demostrar el concepto en laboratorio, sino lograr fabricarlas a gran escala con un costo competitivo frente a las baterías actuales, cuya cadena de producción ya está muy optimizada. Varios fabricantes de automóviles y empresas especializadas en baterías han anunciado avances significativos, con plantas piloto y pruebas en vehículos reales, aunque la producción verdaderamente masiva de esta tecnología en autos comerciales todavía requiere superar retos de manufactura antes de llegar al mercado de forma generalizada.",
+    "author": "Redacción Tech",
+    "category": "Movilidad",
+    "imageUrl": "https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.085Z"
+  },
+  {
+    "id": "892ac571-8881-4390-968c-00116eb58b0d",
+    "title": "Ciudades inteligentes: cómo la tecnología está rediseñando el transporte urbano",
+    "summary": "Semáforos que se adaptan al tráfico en tiempo real, sensores de estacionamiento y plataformas de movilidad compartida están cambiando cómo nos movemos en la ciudad.",
+    "content": "Una ciudad inteligente utiliza sensores, datos y conectividad para optimizar servicios urbanos, y el transporte es uno de los ámbitos donde esto se nota más. Semáforos que ajustan sus tiempos según el flujo real de vehículos, en lugar de ciclos fijos, pueden reducir significativamente los tiempos de espera y la congestión en horas pico.\n\nLa movilidad compartida (bicicletas, patinetes y autos de alquiler por minutos) se apoya en plataformas digitales que muestran disponibilidad en tiempo real, y algunas ciudades ya integran esta información junto con el transporte público en una sola aplicación, facilitando combinar distintos medios de transporte en un solo viaje. El objetivo detrás de estas iniciativas no es solo la comodidad individual, sino reducir la dependencia del auto particular, disminuir emisiones y aprovechar mejor una infraestructura urbana que, en muchas ciudades, ya está al límite de su capacidad.",
+    "author": "Redacción Tech",
+    "category": "Movilidad",
+    "imageUrl": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.089Z"
+  },
+  {
+    "id": "d892aee3-2728-4b9d-a2a8-717aa4edb0b8",
+    "title": "Metaverso: qué queda de la promesa tras el primer hype",
+    "summary": "Tras años de expectativas desmedidas, el metaverso encontró usos más modestos pero concretos en entornos empresariales, educativos y de entretenimiento.",
+    "content": "Cuando el concepto de metaverso explotó en popularidad, se habló de él como el sucesor de internet: un espacio virtual persistente donde trabajaríamos, socializaríamos y compraríamos usando avatares. La adopción masiva de ese escenario no llegó al ritmo prometido, en buena parte porque el hardware necesario (visores de realidad virtual cómodos y accesibles) todavía no está al alcance de todos.\n\nSin embargo, lejos de desaparecer, la tecnología detrás del metaverso encontró aplicaciones más específicas y realistas: entrenamientos corporativos en entornos virtuales simulados, eventos y conciertos digitales, showrooms virtuales para probar productos, y espacios colaborativos para equipos remotos. En lugar de un único metaverso universal, lo que se está consolidando es un conjunto de experiencias inmersivas más acotadas, cada una resolviendo un problema concreto, en lugar de intentar reemplazar por completo la forma en que vivimos.",
+    "author": "Redacción Tech",
+    "category": "Realidad Aumentada",
+    "imageUrl": "https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.093Z"
+  },
+  {
+    "id": "29a9c97c-99a5-4e36-860c-e251b13dda08",
+    "title": "Realidad virtual en la educación: aprender haciendo, sin riesgos",
+    "summary": "Simular una cirugía, caminar por la antigua Roma o practicar un procedimiento industrial peligroso: la realidad virtual está encontrando un lugar sólido en la formación.",
+    "content": "Una de las ventajas más claras de la realidad virtual en educación es la posibilidad de practicar situaciones que serían costosas, peligrosas o simplemente imposibles de recrear en un aula tradicional. Estudiantes de medicina pueden practicar procedimientos quirúrgicos en un entorno simulado antes de hacerlo con pacientes reales, y trabajadores industriales pueden entrenarse para manejar maquinaria peligrosa sin ningún riesgo físico.\n\nMás allá de la formación técnica, la realidad virtual también se usa para experiencias inmersivas en historia, geografía o ciencias, permitiendo a los estudiantes \"visitar\" lugares o épocas que de otra forma solo verían en un libro. Los estudios sobre su efectividad muestran resultados prometedores en retención de conocimiento, aunque el costo del hardware y la necesidad de contenido educativo de calidad siguen siendo las principales barreras para una adopción más amplia en instituciones educativas.",
+    "author": "Redacción Tech",
+    "category": "Realidad Aumentada",
+    "imageUrl": "https://images.unsplash.com/photo-1617802690992-15d93263d3a9?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.096Z"
+  },
+  {
+    "id": "dc5fe8b4-0014-4ccc-a969-01274831d0f0",
+    "title": "Refrigeración líquida: cómo se enfrían los centros de datos modernos",
+    "summary": "El auge de la inteligencia artificial disparó el consumo energético de los centros de datos, y con él, la necesidad de sistemas de enfriamiento más eficientes.",
+    "content": "Los chips especializados en inteligencia artificial generan mucho más calor que los procesadores tradicionales, y la refrigeración por aire, el método más común durante décadas, empieza a mostrar sus límites en instalaciones de alta densidad. Como respuesta, cada vez más centros de datos están adoptando refrigeración líquida, que transporta el calor de forma mucho más eficiente que el aire.\n\nExisten distintos enfoques: desde placas frías que hacen circular líquido directamente sobre los componentes más calientes, hasta la inmersión completa de servidores en un líquido especial no conductor. Estos sistemas permiten empaquetar más potencia de cómputo en menos espacio y reducir el consumo energético dedicado exclusivamente a refrigeración, un factor cada vez más relevante a medida que los centros de datos enfrentan presión para operar de forma más sostenible mientras la demanda de cómputo sigue creciendo.",
+    "author": "Redacción Tech",
+    "category": "Hardware",
+    "imageUrl": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.100Z"
+  },
+  {
+    "id": "1d0c534d-5832-4918-a811-6401834d340a",
+    "title": "El regreso de la computación en el borde (edge computing)",
+    "summary": "Procesar datos cerca de donde se generan, en lugar de enviarlos siempre a la nube, reduce la latencia y abre nuevas posibilidades para dispositivos conectados.",
+    "content": "La computación en el borde, o edge computing, consiste en procesar datos cerca del lugar donde se generan (una fábrica, un vehículo, una cámara de seguridad) en lugar de enviarlos siempre a un centro de datos remoto. Esto reduce la latencia de forma significativa, algo crítico para aplicaciones que necesitan respuestas casi instantáneas, como sistemas de seguridad industrial o vehículos autónomos.\n\nAdemás de la velocidad, el edge computing también puede reducir costos de ancho de banda, ya que no todos los datos necesitan viajar hasta la nube, y mejorar la privacidad al mantener cierta información procesada localmente. El desafío está en gestionar y actualizar de forma segura una gran cantidad de dispositivos distribuidos geográficamente, cada uno con capacidad de cómputo limitada frente a un centro de datos completo, lo que ha impulsado el desarrollo de software y chips específicamente diseñados para este tipo de entornos.",
+    "author": "Redacción Tech",
+    "category": "Hardware",
+    "imageUrl": "https://images.unsplash.com/photo-1563770660941-20978e870e26?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.102Z"
+  },
+  {
+    "id": "62758237-491c-4df8-826a-9e1957c0655c",
+    "title": "Robots humanoides: de la ciencia ficción a la línea de producción",
+    "summary": "Varias empresas ya prueban robots con forma humana en almacenes y fábricas. ¿Por qué apostar por una forma humanoide en lugar de un diseño más especializado?",
+    "content": "La idea de un robot con forma humana lleva décadas en la imaginación popular, pero solo recientemente empezó a acercarse a aplicaciones prácticas reales. La lógica detrás de esta forma es simple: el mundo, desde las herramientas hasta los espacios de trabajo, está diseñado para cuerpos humanos, así que un robot con esa misma forma general puede operar en esos entornos sin necesidad de rediseñarlos por completo.\n\nLos avances en inteligencia artificial han sido clave para este progreso, permitiendo a estos robots interpretar mejor su entorno y adaptar sus movimientos en tiempo real, en lugar de seguir rutinas rígidas preprogramadas. Actualmente, las pruebas se concentran sobre todo en tareas repetitivas o físicamente exigentes en almacenes y líneas de producción, donde pueden trabajar junto a personas. La adopción a gran escala todavía enfrenta retos de costo, seguridad y fiabilidad antes de convertirse en algo común fuera de entornos controlados.",
+    "author": "Redacción Tech",
+    "category": "Robótica",
+    "imageUrl": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.104Z"
+  },
+  {
+    "id": "5d7faef6-7d2d-45cd-8b36-cb7e6d5c391f",
+    "title": "Exoesqueletos: la robótica que devuelve movilidad",
+    "summary": "Estructuras robóticas que se colocan sobre el cuerpo están ayudando a personas con movilidad reducida a caminar, y a trabajadores a evitar lesiones.",
+    "content": "Un exoesqueleto es una estructura robótica externa que se acopla al cuerpo humano para asistir, amplificar o restaurar el movimiento. En el ámbito médico, algunos modelos ayudan a personas con lesiones en la médula espinal a ponerse de pie y caminar, algo que hace unos años parecía reservado a la ciencia ficción, con beneficios que van más allá de la movilidad, incluyendo mejoras en la circulación y la salud ósea.\n\nEn el ámbito industrial, los exoesqueletos tienen un objetivo distinto: reducir el esfuerzo físico y prevenir lesiones en trabajadores que realizan tareas repetitivas o cargan objetos pesados, como en almacenes o líneas de ensamblaje. A diferencia de los modelos médicos, estos suelen ser más simples, sin motores complejos, funcionando como un soporte mecánico que redistribuye el peso. En ambos casos, el reto sigue siendo lograr diseños más livianos, cómodos y económicos para ampliar su uso cotidiano.",
+    "author": "Redacción Tech",
+    "category": "Robótica",
+    "imageUrl": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.106Z"
+  },
+  {
+    "id": "88f19c9a-c246-4ee4-8ba7-8f53e895ab86",
+    "title": "Robots colaborativos: trabajando codo a codo con humanos",
+    "summary": "A diferencia de los robots industriales tradicionales, encerrados en jaulas de seguridad, los 'cobots' están diseñados para compartir espacio de trabajo con personas.",
+    "content": "Los robots industriales tradicionales suelen operar aislados detrás de barreras de seguridad, porque su fuerza y velocidad los hacen peligrosos si un humano se acerca demasiado. Los robots colaborativos, o \"cobots\", rompen con esa lógica: están diseñados con sensores de fuerza y sistemas de detección que les permiten detenerse o reducir su velocidad si detectan a una persona cerca, permitiendo trabajar en el mismo espacio sin jaulas.\n\nEsto los hace especialmente útiles en pequeñas y medianas empresas, donde instalar una celda robótica completa con todas sus medidas de seguridad tradicionales puede no ser viable económicamente. Un cobot puede programarse para tareas específicas, como ensamblaje fino o control de calidad, complementando el trabajo humano en lugar de reemplazarlo por completo. Su facilidad de programación, muchas veces guiando al robot manualmente en lugar de escribir código complejo, también ha ayudado a democratizar el acceso a la automatización.",
+    "author": "Redacción Tech",
+    "category": "Robótica",
+    "imageUrl": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.109Z"
+  },
+  {
+    "id": "3827882d-1346-4813-8333-0e2a5bd395d3",
+    "title": "Cohetes reutilizables: cómo cambiaron el costo de ir al espacio",
+    "summary": "Durante décadas, cada lanzamiento espacial significaba perder el cohete completo. Recuperar y reutilizar esa primera etapa cambió por completo la economía del sector.",
+    "content": "Durante la mayor parte de la era espacial, los cohetes eran de un solo uso: después de impulsar su carga hacia el espacio, la mayoría de sus componentes se perdían, ya fuera cayendo al océano o desintegrándose en la atmósfera. Esto hacía que cada lanzamiento fuera extremadamente costoso, ya que se construía un vehículo completo para usarlo una sola vez.\n\nLa capacidad de hacer que la primera etapa de un cohete regrese y aterrice de forma controlada, para luego ser inspeccionada y reutilizada en futuros lanzamientos, representó un cambio profundo en la economía del sector espacial. Al reducir drásticamente el costo por lanzamiento, esta tecnología permitió multiplicar la cantidad de misiones posibles por año, algo que resultó clave para el despliegue de constelaciones de satélites a gran escala y abrió la puerta a una mayor participación de empresas privadas en un sector antes dominado casi exclusivamente por agencias gubernamentales.",
+    "author": "Redacción Tech",
+    "category": "Espacio",
+    "imageUrl": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.112Z"
+  },
+  {
+    "id": "b4a0d9b8-e83b-48da-b13f-cbbfa34f2039",
+    "title": "Constelaciones satelitales: internet desde cualquier rincón del planeta",
+    "summary": "Miles de satélites pequeños en órbita baja prometen llevar internet de banda ancha a zonas rurales y remotas donde el cableado tradicional no llega.",
+    "content": "A diferencia de los satélites de comunicación tradicionales, ubicados en una órbita geoestacionaria muy alejada de la Tierra, las nuevas constelaciones satelitales utilizan miles de satélites pequeños en órbita baja, mucho más cerca del planeta. Esto reduce significativamente la latencia de la conexión, haciendo que el internet satelital sea mucho más útil para aplicaciones que antes eran poco prácticas por esta vía, como videollamadas o juegos en línea.\n\nEl principal atractivo de esta tecnología es llevar conectividad de banda ancha a zonas rurales, montañosas o remotas, donde tender cableado de fibra óptica resulta extremadamente costoso o directamente inviable. También se ha vuelto relevante para conectividad marítima, aérea y en situaciones de emergencia, cuando la infraestructura terrestre queda dañada. El principal desafío a futuro es gestionar la creciente cantidad de satélites en órbita para evitar colisiones y minimizar el impacto en la observación astronómica.",
+    "author": "Redacción Tech",
+    "category": "Espacio",
+    "imageUrl": "https://images.unsplash.com/photo-1517976547714-720226b864c1?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.114Z"
+  },
+  {
+    "id": "a8d283cb-49c9-48ac-9348-6686f8200043",
+    "title": "Minería espacial: ¿el próximo gran negocio fuera de la Tierra?",
+    "summary": "Algunos asteroides contienen metales valiosos en cantidades que superan por mucho las reservas terrestres. La pregunta es si extraerlos es técnica y económicamente viable.",
+    "content": "Ciertos asteroides contienen concentraciones de metales como platino, níquel o cobalto muy superiores a las que se encuentran en la corteza terrestre, lo que ha alimentado la idea de que podrían convertirse en una fuente de recursos valiosa. La propuesta suena atractiva en teoría: en lugar de agotar minas terrestres, extraer materiales de cuerpos celestes que no tienen los mismos costos ambientales asociados a la minería tradicional.\n\nEl problema es que el costo actual de enviar una misión hasta un asteroide, extraer material y traerlo de vuelta a la Tierra sigue siendo enorme, muy por encima del valor de los minerales que se podrían obtener. Por eso, gran parte del interés actual se centra menos en traer recursos a la Tierra y más en utilizarlos directamente en el espacio, por ejemplo para fabricar combustible o estructuras destinadas a futuras misiones, reduciendo la necesidad de enviar todo desde nuestro planeta.",
+    "author": "Redacción Tech",
+    "category": "Espacio",
+    "imageUrl": "https://images.unsplash.com/photo-1446776877081-d282a0f896e2?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.116Z"
+  },
+  {
+    "id": "720d03aa-da0c-497b-88fb-bc8dd6c6f7b5",
+    "title": "Edición genética CRISPR: promesas y límites actuales",
+    "summary": "La herramienta que permite editar el ADN con precisión ya se usa para tratar enfermedades genéticas raras. ¿Qué tan lejos puede llegar esta tecnología?",
+    "content": "CRISPR es una herramienta de edición genética que permite localizar una secuencia específica de ADN y modificarla con una precisión mucho mayor que las técnicas anteriores, funcionando de forma similar a un \"buscar y reemplazar\" dentro del código genético de una célula. Su relativa simplicidad y bajo costo, comparado con tecnologías previas, aceleró enormemente la investigación en este campo.\n\nYa existen tratamientos aprobados que usan esta tecnología para enfermedades genéticas específicas, como ciertos trastornos de la sangre, donde se editan las propias células del paciente fuera del cuerpo antes de reintroducirlas. El uso de la edición genética directamente en embriones humanos, en cambio, sigue siendo objeto de fuertes restricciones éticas y legales en la mayoría de los países, dado el riesgo de cambios heredables cuyas consecuencias a largo plazo todavía no se comprenden completamente. El campo avanza con cautela, equilibrando el enorme potencial médico con la necesidad de reglas claras.",
+    "author": "Redacción Tech",
+    "category": "Biotecnología",
+    "imageUrl": "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.118Z"
+  },
+  {
+    "id": "01dd8d9d-5797-4c46-9757-066287195dfe",
+    "title": "Órganos impresos en 3D: el futuro de los trasplantes",
+    "summary": "La bioimpresión utiliza células vivas como 'tinta' para construir tejidos capa por capa. Todavía está lejos de crear órganos completos, pero avanza con firmeza.",
+    "content": "La bioimpresión 3D adapta el principio de la impresión tradicional, pero en lugar de plástico o metal, utiliza una mezcla de células vivas y materiales biocompatibles como \"tinta\", depositada capa por capa para construir estructuras de tejido con una arquitectura definida. El objetivo a largo plazo es poder fabricar órganos completos y funcionales para trasplantes, reduciendo la dependencia de donantes.\n\nHoy en día, la tecnología está mucho más avanzada en tejidos relativamente simples, como piel o cartílago, que ya se usan en investigación y algunos tratamientos experimentales. Construir órganos complejos como un riñón o un corazón es un desafío mucho mayor, ya que requiere recrear no solo la estructura del tejido, sino también una red funcional de vasos sanguíneos capaz de mantenerlo con vida. Aun así, los avances constantes en este campo sugieren que, aunque el camino es largo, la dirección es prometedora.",
+    "author": "Redacción Tech",
+    "category": "Biotecnología",
+    "imageUrl": "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.121Z"
+  },
+  {
+    "id": "e784b654-557c-4738-a7ae-d1ba6f786db8",
+    "title": "Biosensores: la medicina que se mide en tiempo real",
+    "summary": "Dispositivos capaces de medir glucosa, hidratación o marcadores de estrés de forma continua están cambiando cómo monitoreamos nuestra propia salud.",
+    "content": "Un biosensor es un dispositivo capaz de detectar una sustancia biológica específica, como glucosa, lactato o ciertas hormonas, y convertir esa información en una señal medible. Los sensores continuos de glucosa, usados por personas con diabetes, son uno de los ejemplos más conocidos: en lugar de un pinchazo puntual, ofrecen una lectura constante que permite reaccionar mucho más rápido ante cambios peligrosos.\n\nLa tendencia actual apunta a biosensores cada vez menos invasivos, integrados en parches, wearables o incluso textiles inteligentes, capaces de monitorear distintos indicadores de salud sin necesidad de extraer sangre. Combinados con inteligencia artificial, estos dispositivos pueden identificar patrones tempranos que anticipen un problema de salud antes de que se vuelva grave. El desafío pendiente está en la precisión frente a métodos de laboratorio tradicionales y en garantizar que los datos recolectados se manejen con la privacidad que merece la información médica personal.",
+    "author": "Redacción Tech",
+    "category": "Biotecnología",
+    "imageUrl": "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.124Z"
+  },
+  {
+    "id": "12716331-1428-4edf-8c90-ccb59a092a7b",
+    "title": "Fusión nuclear: por qué esta vez podría ser diferente",
+    "summary": "Durante décadas, la fusión nuclear pareció estar siempre '30 años en el futuro'. Avances recientes en distintos proyectos generan un optimismo renovado.",
+    "content": "A diferencia de la fisión nuclear, usada en las centrales actuales, que divide átomos pesados para liberar energía, la fusión nuclear busca unir átomos ligeros, replicando el proceso que ocurre en el sol. En teoría, ofrece energía prácticamente ilimitada, sin residuos radiactivos de larga duración y sin riesgo de un accidente en cadena, lo que la convierte en una de las promesas energéticas más atractivas.\n\nEl problema histórico ha sido lograr que la reacción produzca más energía de la que consume mantenerla, algo extremadamente difícil dado que se requieren temperaturas de decenas de millones de grados. En los últimos años, distintos proyectos experimentales, tanto públicos como privados, reportaron avances importantes en esa dirección, generando un renovado optimismo en el sector. Aun así, construir una planta de fusión comercial capaz de generar electricidad de forma estable para la red sigue siendo un desafío de ingeniería considerable, con plazos que todavía se miden en años, no en meses.",
+    "author": "Redacción Tech",
+    "category": "Energía",
+    "imageUrl": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.126Z"
+  },
+  {
+    "id": "fb8d0650-66fa-46a2-a241-15cd82bc1e85",
+    "title": "Hidrógeno verde: la apuesta energética que divide opiniones",
+    "summary": "Producido con electricidad renovable, el hidrógeno verde promete descarbonizar industrias difíciles de electrificar. Pero su eficiencia genera debate entre expertos.",
+    "content": "El hidrógeno verde se produce separando el agua en hidrógeno y oxígeno mediante electrólisis, usando electricidad proveniente de fuentes renovables como solar o eólica. A diferencia del hidrógeno producido a partir de combustibles fósiles (la forma más común actualmente), este proceso no genera emisiones directas de carbono, lo que lo convierte en un candidato atractivo para descarbonizar sectores difíciles de electrificar directamente, como la industria pesada o el transporte marítimo.\n\nEl principal debate en torno al hidrógeno verde tiene que ver con su eficiencia: convertir electricidad en hidrógeno, transportarlo y luego volver a convertirlo en energía útil implica pérdidas en cada paso, por lo que muchos expertos argumentan que su uso debería reservarse para sectores donde la electrificación directa no sea una opción viable, en lugar de aplicarlo de forma generalizada. Aun con ese debate abierto, distintos países y empresas ya invierten en infraestructura de producción, apostando a que los costos bajen a medida que la tecnología madure.",
+    "author": "Redacción Tech",
+    "category": "Energía",
+    "imageUrl": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.128Z"
+  },
+  {
+    "id": "82693911-5680-4de1-9d39-317189516b29",
+    "title": "Redes eléctricas inteligentes: cómo se adapta la red al futuro renovable",
+    "summary": "La energía solar y eólica es intermitente por naturaleza. Las redes eléctricas inteligentes usan datos en tiempo real para equilibrar oferta y demanda sin cortes.",
+    "content": "Las redes eléctricas tradicionales fueron diseñadas para un modelo simple: unas pocas grandes plantas generan electricidad de forma constante, y esa energía fluye en una sola dirección hacia los consumidores. Con la llegada masiva de energía solar y eólica, cuya generación varía según el clima y la hora del día, ese modelo empezó a mostrar limitaciones, ya que la red necesita mantener el equilibrio entre generación y consumo en todo momento.\n\nLas redes eléctricas inteligentes incorporan sensores y sistemas de comunicación que permiten monitorear el consumo y la generación en tiempo real, ajustando el flujo de energía de forma mucho más dinámica. Esto incluye gestionar mejor la energía que los propios hogares generan con paneles solares y devuelven a la red, así como coordinar sistemas de almacenamiento en baterías que absorben el excedente de energía renovable para usarlo cuando la generación baja, como durante la noche o en días sin viento.",
+    "author": "Redacción Tech",
+    "category": "Energía",
+    "imageUrl": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.130Z"
+  },
+  {
+    "id": "d4b67bfe-9513-4c48-be13-0babb9e1b67c",
+    "title": "Más allá de las criptomonedas: usos reales de blockchain",
+    "summary": "La tecnología detrás del bitcoin también se está usando para rastrear cadenas de suministro, verificar documentos y simplificar procesos administrativos.",
+    "content": "Una blockchain es, en esencia, un registro digital compartido y difícil de alterar, donde cada nueva entrada queda vinculada criptográficamente a las anteriores. Aunque su aplicación más conocida es el registro de transacciones de criptomonedas, la misma idea de un registro confiable y descentralizado se puede aplicar a otros problemas donde varias partes necesitan confiar en la misma información sin depender de un único intermediario central.\n\nAlgunos ejemplos concretos incluyen el seguimiento de productos en cadenas de suministro, donde se puede verificar el origen de un alimento o la autenticidad de un producto de lujo en cada etapa del proceso, y la emisión de certificados o títulos académicos verificables sin necesidad de contactar directamente a la institución emisora. Estos usos suelen ser menos llamativos que las criptomonedas, pero representan aplicaciones prácticas donde la transparencia y la resistencia a la manipulación del registro aportan un valor real y concreto.",
+    "author": "Redacción Tech",
+    "category": "Blockchain",
+    "imageUrl": "https://images.unsplash.com/photo-1639762681057-408e52192e55?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.133Z"
+  },
+  {
+    "id": "73f49712-5e69-4256-8e63-b9aa0806eeeb",
+    "title": "Contratos inteligentes: automatizando acuerdos sin intermediarios",
+    "summary": "Un contrato inteligente ejecuta sus condiciones automáticamente cuando se cumplen ciertas reglas, sin necesidad de que un tercero intervenga.",
+    "content": "Un contrato inteligente es un programa que se ejecuta sobre una blockchain y que contiene reglas predefinidas: si se cumple una condición específica, el contrato ejecuta automáticamente una acción, como liberar un pago. A diferencia de un contrato tradicional, no depende de que una de las partes confíe en que la otra cumplirá su palabra, ni de un intermediario que verifique el cumplimiento, porque las reglas quedan escritas en código y se ejecutan de forma automática.\n\nEste mecanismo tiene aplicaciones interesantes en seguros (pagando automáticamente una indemnización si se cumple una condición verificable, como el retraso de un vuelo), en finanzas descentralizadas, o en la gestión de derechos de autor, distribuyendo pagos automáticamente entre los creadores de una obra. El principal riesgo es que, una vez desplegado, un error en el código del contrato puede ser difícil o imposible de corregir, por lo que su desarrollo requiere un nivel de rigurosidad y auditoría mucho mayor que el de una aplicación tradicional.",
+    "author": "Redacción Tech",
+    "category": "Blockchain",
+    "imageUrl": "https://images.unsplash.com/photo-1639322537228-f710d846310a?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.135Z"
+  },
+  {
+    "id": "934eef5a-9420-4c0a-a409-ffcbe1136089",
+    "title": "NFTs: qué queda después de la burbuja",
+    "summary": "Tras el furor especulativo de los primeros años, los tokens no fungibles encontraron usos más modestos como certificados de propiedad digital y entradas a eventos.",
+    "content": "Un NFT (token no fungible) es un registro único e irrepetible en una blockchain que puede representar la propiedad de un activo digital, como una imagen, un video o incluso un objeto dentro de un videojuego. Durante su momento de mayor popularidad, se vendieron piezas de arte digital por sumas millonarias, alimentando una ola especulativa donde muchos compraban NFTs esperando revenderlos a un precio mayor, más que por el valor del contenido en sí.\n\nTras la caída de precios que siguió a ese primer auge, gran parte del interés especulativo se enfrió, pero la tecnología subyacente no desapareció. Hoy se exploran usos más prácticos: entradas a eventos que son a la vez un recuerdo coleccionable, certificados de autenticidad para ediciones limitadas de productos físicos, o la representación digital de membresías. El concepto de un identificador único y verificable sigue siendo útil, incluso si el mercado especulativo que lo hizo famoso ya no domina la conversación.",
+    "author": "Redacción Tech",
+    "category": "Blockchain",
+    "imageUrl": "https://images.unsplash.com/photo-1640340434855-6084b1f4901c?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.137Z"
+  },
+  {
+    "id": "406ddb01-53a5-4ba6-bdca-4c8a48546e7f",
+    "title": "Multi-nube: por qué las empresas ya no dependen de un solo proveedor",
+    "summary": "Cada vez más organizaciones distribuyen sus sistemas entre varios proveedores de nube para reducir riesgos y evitar quedar atadas a uno solo.",
+    "content": "Una estrategia multi-nube consiste en usar servicios de más de un proveedor de computación en la nube, en lugar de concentrar toda la infraestructura en uno solo. Una de las razones principales es evitar la dependencia excesiva de un único proveedor, un riesgo conocido como \"vendor lock-in\", que puede dejar a una empresa en una posición débil frente a cambios de precio o de condiciones del servicio.\n\nOtra ventaja es la resiliencia: si un proveedor sufre una interrupción importante, los sistemas críticos distribuidos en otra nube pueden seguir funcionando. También permite aprovechar las fortalezas específicas de cada proveedor, usando uno para ciertas cargas de trabajo de inteligencia artificial y otro para almacenamiento, por ejemplo. La contrapartida es la complejidad: gestionar y asegurar sistemas distribuidos entre distintos proveedores requiere herramientas y procesos más sofisticados que trabajar con una sola plataforma, lo que ha impulsado el desarrollo de soluciones específicas para administrar entornos multi-nube.",
+    "author": "Redacción Tech",
+    "category": "Cloud Computing",
+    "imageUrl": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.140Z"
+  },
+  {
+    "id": "e83d64ef-ace7-4cb3-9693-0c9d32b42184",
+    "title": "Serverless: programar sin preocuparse por los servidores",
+    "summary": "El modelo serverless permite a los desarrolladores enfocarse solo en el código, mientras el proveedor de nube gestiona automáticamente la infraestructura.",
+    "content": "A pesar de su nombre, la computación \"serverless\" no significa que no haya servidores involucrados, sino que el desarrollador ya no necesita preocuparse por administrarlos. En lugar de configurar y mantener un servidor funcionando constantemente, se escribe una función que se ejecuta automáticamente cuando ocurre un evento específico, como una solicitud a una API, y el proveedor de nube se encarga de asignar los recursos necesarios en ese momento.\n\nEste modelo resulta especialmente atractivo para cargas de trabajo variables: en lugar de pagar por un servidor encendido las 24 horas aunque reciba poco tráfico, solo se paga por el tiempo real de ejecución de cada función. También simplifica el escalado, ya que el proveedor ajusta automáticamente los recursos según la demanda. La contrapartida es un menor control sobre el entorno de ejecución y ciertos límites técnicos, como el tiempo máximo que puede correr una función, lo que hace que no sea la opción ideal para todo tipo de aplicación.",
+    "author": "Redacción Tech",
+    "category": "Cloud Computing",
+    "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.142Z"
+  },
+  {
+    "id": "de65b793-aa98-4642-a2e1-0e7eb6f25536",
+    "title": "Cómo los centros de datos están reduciendo su huella de carbono",
+    "summary": "Entre energía renovable, mejores sistemas de enfriamiento y ubicaciones estratégicas, la industria de la nube busca reducir su impacto ambiental creciente.",
+    "content": "El crecimiento explosivo de la computación en la nube, acelerado por la demanda de inteligencia artificial, ha puesto el consumo energético de los centros de datos bajo un escrutinio cada vez mayor. Estas instalaciones no solo consumen electricidad para procesar datos, sino también grandes cantidades de energía adicional para mantener los equipos a una temperatura segura.\n\nComo respuesta, varios operadores de centros de datos han firmado acuerdos de compra de energía renovable a largo plazo, financiando directamente la construcción de nuevos parques solares y eólicos. También se están explorando ubicaciones estratégicas en climas fríos, donde el aire exterior puede usarse para refrigeración natural gran parte del año, reduciendo la necesidad de sistemas de enfriamiento activos. Otras iniciativas incluyen reutilizar el calor residual generado por los servidores para calefacción urbana en algunas ciudades, transformando lo que antes era simplemente energía desperdiciada en un recurso aprovechable.",
+    "author": "Redacción Tech",
+    "category": "Cloud Computing",
+    "imageUrl": "https://images.unsplash.com/photo-1516321165247-4aa89a48be28?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.146Z"
+  },
+  {
+    "id": "6fd3b6e4-0d18-47f6-9f7a-4856fd5b04f0",
+    "title": "Streaming de videojuegos: jugar sin necesidad de una consola potente",
+    "summary": "En lugar de ejecutar el juego en tu dispositivo, el streaming de videojuegos procesa todo en la nube y te envía solo el video. ¿Cumplió sus promesas?",
+    "content": "El streaming de videojuegos funciona de forma similar a un servicio de video: en lugar de instalar y ejecutar el juego localmente, este corre en un servidor remoto potente, y lo que recibe el jugador es solo el video del juego en tiempo real, junto con sus controles enviados en la dirección contraria. En teoría, esto permitiría jugar títulos exigentes en cualquier dispositivo, desde un teléfono hasta una televisión básica, sin necesidad de hardware costoso.\n\nLa principal limitación sigue siendo la conexión a internet: cualquier problema de latencia o estabilidad se nota de inmediato en forma de retrasos en los controles, algo especialmente notorio en juegos que requieren reacciones rápidas. Aun así, la tecnología ha mejorado considerablemente, y encuentra un público sólido entre jugadores que priorizan la comodidad de acceder a sus juegos desde cualquier dispositivo por encima de la mejor calidad gráfica posible, o que simplemente no quieren invertir en hardware de alta gama.",
+    "author": "Redacción Tech",
+    "category": "Videojuegos",
+    "imageUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.148Z"
+  },
+  {
+    "id": "5818e23a-9b9d-4a84-af72-860903463954",
+    "title": "IA generativa en el desarrollo de videojuegos",
+    "summary": "Desde generar texturas y diálogos hasta crear personajes no jugables más creíbles, la inteligencia artificial ya forma parte del proceso creativo de muchos estudios.",
+    "content": "El desarrollo de un videojuego moderno involucra crear una enorme cantidad de contenido: texturas, modelos 3D, animaciones, diálogos y música. La inteligencia artificial generativa se está usando cada vez más como herramienta de apoyo en varias de estas etapas, ayudando a los equipos a producir borradores iniciales más rápido, que luego los artistas y diseñadores refinan y ajustan según la visión creativa del juego.\n\nOtro campo de exploración interesante son los personajes no jugables (NPC) impulsados por modelos de lenguaje, capaces de mantener conversaciones más naturales y variadas que los diálogos con opciones predefinidas tradicionales, lo que podría hacer que los mundos virtuales se sientan más vivos. Esta tendencia también genera debate dentro de la industria, especialmente entre artistas preocupados por el impacto en su trabajo y por cuestiones de propiedad intelectual sobre el material usado para entrenar estos modelos, un tema que los estudios y sindicatos del sector siguen negociando activamente.",
+    "author": "Redacción Tech",
+    "category": "Videojuegos",
+    "imageUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.150Z"
+  },
+  {
+    "id": "8f47dc2f-4e55-4315-aaa4-8eaeb1c96b73",
+    "title": "El auge de los videojuegos como espacio social",
+    "summary": "Para muchos jugadores, especialmente los más jóvenes, los videojuegos multijugador ya funcionan como un punto de encuentro social, más allá de la competencia.",
+    "content": "Juegos multijugador masivos han evolucionado más allá de ser simplemente un espacio de competencia, para convertirse en verdaderos puntos de encuentro social. Muchos jugadores se conectan no necesariamente para completar objetivos, sino para pasar tiempo con amigos, asistir a eventos en vivo dentro del propio juego, o simplemente explorar un mundo virtual junto a otras personas.\n\nEsta función social ha llevado a algunos juegos a organizar conciertos virtuales con artistas reales, colaboraciones con marcas de moda que venden ropa para los personajes, y espacios diseñados específicamente para la interacción social más que para la jugabilidad tradicional. Para muchas marcas, estos espacios se han vuelto una forma de llegar a audiencias jóvenes que consumen cada vez menos medios tradicionales, y para los estudios de desarrollo, representan una fuente de ingresos recurrente a través de objetos cosméticos y eventos especiales, más allá de la venta inicial del juego.",
+    "author": "Redacción Tech",
+    "category": "Videojuegos",
+    "imageUrl": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.153Z"
+  },
+  {
+    "id": "c09832ff-5fee-4332-b469-5c4c4ddeefd0",
+    "title": "5G y el camino hacia el 6G: qué esperar de la próxima generación",
+    "summary": "Mientras el 5G todavía se sigue desplegando en muchas regiones, la investigación sobre el 6G ya está en marcha. ¿Qué cambios trae cada nueva generación?",
+    "content": "Cada generación de redes móviles no solo ha traído mayor velocidad, sino cambios en el tipo de aplicaciones que se vuelven posibles. El 5G, más allá de la velocidad de descarga, se destacó por reducir drásticamente la latencia y permitir conectar una cantidad mucho mayor de dispositivos simultáneamente, algo clave para aplicaciones industriales, sensores y vehículos conectados.\n\nAunque el despliegue completo del 5G todavía continúa en muchas regiones del mundo, la investigación sobre el 6G ya está en marcha, explorando frecuencias aún más altas y nuevas formas de combinar redes terrestres con conectividad satelital. Se espera que el 6G habilite aplicaciones que hoy resultan poco prácticas, como comunicación holográfica o control remoto de precisión para robótica avanzada. Como suele ocurrir con estas tecnologías, la definición final de sus capacidades y su despliegue comercial real tomará varios años de estandarización y pruebas antes de llegar al público general.",
+    "author": "Redacción Tech",
+    "category": "Redes e Internet",
+    "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.154Z"
+  },
+  {
+    "id": "60919cfa-62f0-4877-95d7-b0048d3171eb",
+    "title": "Internet satelital: cerrando la brecha digital global",
+    "summary": "Millones de personas en zonas rurales todavía no tienen acceso a internet de calidad. Las nuevas constelaciones satelitales buscan cambiar ese panorama.",
+    "content": "A pesar del crecimiento de internet en las últimas décadas, una parte significativa de la población mundial sigue sin acceso a una conexión de banda ancha confiable, especialmente en zonas rurales o geográficamente aisladas donde extender infraestructura de cable resulta extremadamente costoso. El internet satelital de nueva generación busca resolver este problema llevando conectividad directamente desde el espacio, sin depender de cableado terrestre.\n\nMás allá del acceso doméstico, esta tecnología también tiene aplicaciones importantes en sectores como la agricultura de precisión, que depende de conectividad constante en el campo, la navegación marítima y la respuesta ante desastres naturales, cuando la infraestructura terrestre suele quedar dañada justo quando más se necesita comunicación. El costo del equipo receptor y las tarifas del servicio siguen siendo una barrera para la adopción masiva en las regiones más pobres, que son precisamente las que más se beneficiarían de cerrar esta brecha digital.",
+    "author": "Redacción Tech",
+    "category": "Redes e Internet",
+    "imageUrl": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.156Z"
+  },
+  {
+    "id": "95550cc6-d81d-4d4b-9771-3f81e3255414",
+    "title": "Programación asistida por IA: cómo cambia el trabajo de los desarrolladores",
+    "summary": "Los asistentes de código impulsados por IA ya son parte del flujo diario de muchos programadores. ¿Reemplazan a los desarrolladores o cambian su rol?",
+    "content": "Los asistentes de código basados en inteligencia artificial pueden sugerir líneas completas de código, generar funciones a partir de una descripción en lenguaje natural, o explicar qué hace un fragmento de código desconocido. Para muchos desarrolladores, esto ha significado un cambio real en su flujo de trabajo diario, acelerando tareas repetitivas como escribir pruebas, documentación o código repetitivo que sigue patrones conocidos.\n\nLejos de reemplazar a los programadores, la tendencia actual apunta a un cambio de rol: el valor del desarrollador se desplaza hacia el diseño de la arquitectura del sistema, la toma de decisiones sobre qué construir y cómo, y la revisión crítica del código generado, que todavía puede contener errores sutiles o soluciones poco óptimas. Esto también plantea la necesidad de desarrollar nuevas habilidades, como saber formular instrucciones claras para estas herramientas y evaluar con criterio su resultado, en lugar de aceptarlo sin revisión.",
+    "author": "Redacción Tech",
+    "category": "Desarrollo de Software",
+    "imageUrl": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.159Z"
+  },
+  {
+    "id": "ef935a90-f759-4219-b3bc-89074f966389",
+    "title": "El auge de los lenguajes de programación modernos: Rust y Go",
+    "summary": "Diseñados pensando en la seguridad, el rendimiento y la simplicidad, estos lenguajes ganaron terreno frente a alternativas más antiguas en distintos tipos de proyectos.",
+    "content": "Rust se diseñó con un enfoque particular en la seguridad de memoria, un tipo de error que históricamente ha sido responsable de una gran parte de las vulnerabilidades de seguridad en software escrito en lenguajes más antiguos. Su sistema de verificación en tiempo de compilación detecta muchos de estos errores antes de que el programa siquiera se ejecute, sin sacrificar el rendimiento que se espera de un lenguaje de bajo nivel.\n\nGo, por su parte, apostó por la simplicidad y la facilidad para escribir programas que manejan múltiples tareas simultáneamente, algo especialmente útil para construir servicios de red y sistemas distribuidos a gran escala. Ambos lenguajes han ganado adopción constante en la industria, no como reemplazo universal de lenguajes más establecidos, sino como opciones preferidas para tipos de proyectos específicos donde sus fortalezas particulares (seguridad en el caso de Rust, simplicidad y concurrencia en el caso de Go) resultan especialmente valiosas.",
+    "author": "Redacción Tech",
+    "category": "Desarrollo de Software",
+    "imageUrl": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.160Z"
+  },
+  {
+    "id": "c1a34775-8852-47d0-b808-41e150231d9c",
+    "title": "Arquitectura de microservicios: ventajas y trampas comunes",
+    "summary": "Dividir una aplicación grande en servicios pequeños e independientes promete flexibilidad, pero también introduce una complejidad que no siempre vale la pena.",
+    "content": "Una arquitectura de microservicios divide una aplicación en varios servicios pequeños e independientes, cada uno responsable de una función específica y capaz de desarrollarse, desplegarse y escalarse por separado. Esto contrasta con una arquitectura monolítica tradicional, donde toda la aplicación se construye y despliega como una sola unidad. La promesa principal es la flexibilidad: distintos equipos pueden trabajar en paralelo sobre servicios diferentes sin interferir entre sí.\n\nSin embargo, esta arquitectura también introduce una complejidad considerable: los servicios necesitan comunicarse entre sí de forma confiable a través de la red, lo que agrega puntos de falla que no existen en un monolito, y depurar un problema que involucra a varios servicios puede ser mucho más difícil que en una aplicación unificada. Por esta razón, muchos expertos recomiendan que los equipos comiencen con una arquitectura más simple y solo migren hacia microservicios cuando la escala real del proyecto lo justifique, en lugar de adoptarla desde el principio por moda.",
+    "author": "Redacción Tech",
+    "category": "Desarrollo de Software",
+    "imageUrl": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.162Z"
+  },
+  {
+    "id": "c99de500-a824-4299-a031-73c5d485b578",
+    "title": "Relojes inteligentes: de contar pasos a monitorear la salud cardíaca",
+    "summary": "Los smartwatches evolucionaron de simples contadores de pasos a dispositivos capaces de detectar arritmias y otros indicadores de salud relevantes.",
+    "content": "Los primeros relojes inteligentes se enfocaban principalmente en funciones básicas de actividad física: contar pasos, medir calorías estimadas y registrar el ritmo cardíaco durante el ejercicio. Con el tiempo, los sensores incorporados se volvieron mucho más sofisticados, permitiendo medir el nivel de oxígeno en sangre, detectar patrones de sueño más detallados e incluso identificar señales de una posible arritmia cardíaca.\n\nAlgunos modelos ya cuentan con funciones capaces de generar un electrocardiograma simplificado directamente desde la muñeca, una capacidad que hace pocos años requería equipo médico especializado. Esto ha generado un interés creciente por parte de instituciones de salud en el potencial de estos dispositivos para la detección temprana de problemas, aunque los expertos coinciden en que deben entenderse como una herramienta de monitoreo complementaria, no como un reemplazo del diagnóstico médico profesional, y que las alertas que generan siempre deben confirmarse con una evaluación clínica adecuada.",
+    "author": "Redacción Tech",
+    "category": "Wearables",
+    "imageUrl": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.164Z"
+  },
+  {
+    "id": "ad6f4b60-01ea-4ab1-82d5-d6d4109b42bd",
+    "title": "Anillos inteligentes: la nueva frontera de los wearables",
+    "summary": "Más discretos que un smartwatch, los anillos inteligentes están ganando popularidad como una forma menos intrusiva de monitorear el sueño y la recuperación física.",
+    "content": "A diferencia de un smartwatch, que ocupa toda la muñeca y suele requerir cargarse con frecuencia, los anillos inteligentes ofrecen una alternativa mucho más discreta: un dispositivo pequeño, sin pantalla, que se centra exclusivamente en recolectar datos biométricos a través de sensores en contacto directo con el dedo, donde el flujo sanguíneo es más estable para tomar mediciones precisas.\n\nSu enfoque principal suele estar en el sueño y la recuperación física, ofreciendo puntuaciones diarias que combinan variables como la temperatura corporal, la variabilidad del ritmo cardíaco y la calidad del descanso, ayudando al usuario a entender cuándo su cuerpo necesita más recuperación antes de otro esfuerzo físico intenso. Su bajo consumo de energía, gracias a la ausencia de pantalla, les permite ofrecer varios días de autonomía por carga, una ventaja notable frente a los smartwatches más completos, que suelen requerir carga diaria o cada dos días.",
+    "author": "Redacción Tech",
+    "category": "Wearables",
+    "imageUrl": "https://images.unsplash.com/photo-1551816230-ef5deaed4a26?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.165Z"
+  },
+  {
+    "id": "88c0b23f-8758-4ebd-8dca-f3ed7b3d63f6",
+    "title": "Economía circular en la industria tecnológica: reparar en vez de reemplazar",
+    "summary": "Ante la creciente cantidad de residuos electrónicos, fabricantes y legisladores empiezan a impulsar dispositivos más fáciles de reparar y reciclar.",
+    "content": "Los residuos electrónicos son una de las categorías de desechos que más rápido crece en el mundo, impulsados por ciclos de reemplazo de dispositivos cada vez más cortos y por diseños que dificultan la reparación. La economía circular propone un cambio de enfoque: en lugar de un modelo lineal de fabricar, usar y desechar, busca extender la vida útil de los productos a través de la reparación, la reutilización y el reciclaje de materiales.\n\nEste cambio de mentalidad ya se refleja en nuevas regulaciones que exigen a los fabricantes ofrecer piezas de repuesto y manuales de reparación durante más tiempo, así como en el movimiento del \"derecho a reparar\", que busca que los consumidores y talleres independientes puedan arreglar sus propios dispositivos sin depender exclusivamente del fabricante original. Algunas empresas también han empezado a diseñar productos pensados desde el inicio para ser desarmados fácilmente, facilitando tanto la reparación como el reciclaje de sus componentes al final de su vida útil.",
+    "author": "Redacción Tech",
+    "category": "Sostenibilidad",
+    "imageUrl": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.167Z"
+  },
+  {
+    "id": "d83a68e5-63e1-4413-a398-b228f1f8ca8c",
+    "title": "Minería de criptomonedas y su impacto energético",
+    "summary": "El proceso que asegura ciertas redes de criptomonedas consume una cantidad de energía comparable a la de países enteros. Así se está abordando el debate.",
+    "content": "Algunas criptomonedas, entre ellas bitcoin, dependen de un mecanismo llamado \"prueba de trabajo\" para validar transacciones y asegurar la red: miles de computadoras compiten resolviendo cálculos complejos, y quien lo logra primero recibe una recompensa. Este proceso, conocido como minería, requiere una cantidad de energía eléctrica considerable, lo que ha generado críticas constantes sobre su impacto ambiental.\n\nEn respuesta, algunas redes de criptomonedas migraron a mecanismos alternativos, como la \"prueba de participación\", que asegura la red sin necesidad de ese gasto computacional masivo, reduciendo drásticamente su consumo energético. Por otro lado, algunas operaciones de minería han empezado a ubicarse cerca de fuentes de energía renovable con excedentes, o incluso a aprovechar el gas natural que de otra forma se quemaría sin uso en operaciones petroleras. El debate sobre el balance entre la seguridad que ofrece la prueba de trabajo y su costo energético sigue abierto dentro de la comunidad.",
+    "author": "Redacción Tech",
+    "category": "Sostenibilidad",
+    "imageUrl": "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T01:58:28.169Z"
+  },
+  {
+    "id": "e0b9b36c-3a6d-4b4d-b6c7-aac7625b64b8",
+    "title": "Apple Event 2026: todo lo que se anunció en 'Surprise and Shine'",
+    "summary": "El 9 de septiembre de 2026, Apple presentó en Apple Park su primer iPhone plegable, la nueva generación Pro, relojes renovados y más. Un resumen de todo lo anunciado.",
+    "content": "El 9 de septiembre de 2026, Apple realizó en Apple Park (Cupertino, California) su tradicional evento de otoño, esta vez bajo el lema \"Surprise and Shine\". Fue una presentación especialmente significativa: la primera conducida por John Ternus como nuevo CEO de la compañía, tras la salida de Tim Cook del cargo el 1 de septiembre.\n\nEntre los anuncios principales estuvieron el iPhone 18 Pro y iPhone 18 Pro Max, el esperado iPhone Duo (el primer plegable de la marca), los nuevos AirPods 5 con traducción en tiempo real, y la renovación del Apple Watch con los modelos Series 12 y Ultra 4. También se presentó iOS 27, el nuevo sistema operativo que acompaña a toda la nueva generación de dispositivos. Los preorders del iPhone 18 Pro comenzaron el 12 de septiembre, con disponibilidad en tiendas a partir del 18 de septiembre, mientras que el iPhone Duo tendrá su propio calendario de lanzamiento en octubre.",
+    "author": "Redacción Tech",
+    "category": "Apple",
+    "imageUrl": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T03:26:26.791Z"
+  },
+  {
+    "id": "8d6cff2c-70bc-4704-a310-4d93b8df7ca3",
+    "title": "iPhone 18 Pro y Pro Max: así es la nueva generación premium de Apple",
+    "summary": "Nuevos acabados en tono glaciar y borgoña, cámara con apertura variable en el Pro Max y el chip A20 Pro. Un repaso de las novedades de la línea Pro 2026.",
+    "content": "El iPhone 18 Pro y el iPhone 18 Pro Max llegan como los buques insignia de la línea 2026, con dos nuevos acabados llamados \"glaciar\" y \"borgoña\" que renuevan la paleta de colores habitual de la serie Pro. Apple mantuvo el diseño general de la Isla Dinámica, pero ajustó internamente varios componentes en busca de mejor gestión térmica y mayor duración de batería.\n\nUno de los cambios más comentados es la cámara con apertura variable, reservada para el modelo Pro Max, que permite ajustar físicamente la cantidad de luz que entra al sensor, algo poco común en teléfonos y hasta ahora más asociado a cámaras profesionales. Ambos modelos incorporan el nuevo chip A20 Pro, la última generación del procesador de Apple, enfocado en mejorar el rendimiento gráfico y las tareas de inteligencia artificial on-device. El iPhone 18 estándar, en cambio, no se presentó en este evento: Apple planea lanzarlo en la primavera de 2027, junto al iPhone 18e y un renovado iPhone Air.",
+    "author": "Redacción Tech",
+    "category": "Apple",
+    "imageUrl": "https://images.unsplash.com/photo-1556656793-08538906a9f8?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T03:26:26.800Z"
+  },
+  {
+    "id": "5749f644-a203-49d3-8062-30f152536a1d",
+    "title": "iPhone Duo: el primer iPhone plegable ya es oficial",
+    "summary": "Apple confirmó su primer teléfono plegable: pantalla de 5,4 pulgadas cerrado que se despliega a 7,6 pulgadas, Touch ID en vez de Face ID, y un precio que arranca en 1.999 dólares.",
+    "content": "Tras años de rumores, Apple confirmó oficialmente el iPhone Duo, su primer teléfono con pantalla plegable tipo libro. Cerrado, el dispositivo muestra una pantalla exterior de 5,4 pulgadas; al desplegarlo, revela una pantalla interior de 7,6 pulgadas, la más grande que Apple ha puesto jamás en un iPhone. El diseño plegable también trae funciones de multitarea pensadas específicamente para aprovechar el espacio adicional de pantalla.\n\nUno de los cambios más notorios es la ausencia de Face ID: el iPhone Duo utiliza Touch ID como método de autenticación biométrica, con la posibilidad de registrar más de una huella digital. En cuanto a precio, el modelo base arranca en 1.999 dólares, con versiones de mayor almacenamiento que llegan hasta los 3.199 dólares para la variante de 2 TB. Los pedidos anticipados comienzan el 16 de octubre, y la venta al público en Estados Unidos, Canadá, México y Brasil arranca el 23 de octubre.",
+    "author": "Redacción Tech",
+    "category": "Apple",
+    "imageUrl": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T03:26:26.804Z"
+  },
+  {
+    "id": "7f4ca6cb-e6e7-46e8-aa96-761270260883",
+    "title": "El chip C2: el nuevo módem que Apple diseñó para el iPhone Duo",
+    "summary": "Apple presentó su segunda generación de módem propio, más rápido y eficiente que el anterior, y clave para la conectividad del nuevo iPhone plegable.",
+    "content": "Junto al iPhone Duo, Apple presentó el C2, su segundo módem diseñado internamente, sucesor del C1 que debutó en generaciones anteriores. Apple viene apostando por desarrollar sus propios módems en lugar de depender exclusivamente de proveedores externos, buscando un mayor control sobre el rendimiento, el consumo energético y la integración con el resto de sus chips.\n\nSegún la compañía, el C2 es un 50% más rápido que su módem anterior y añade soporte de ondas milimétricas de 5G en Estados Unidos, mientras opera con un consumo energético hasta 15% menor. Esta eficiencia es particularmente relevante en un dispositivo como el iPhone Duo, donde la batería debe repartirse entre dos pantallas y un cuerpo plegable con menos espacio interno disponible que un iPhone tradicional. El desarrollo de módems propios también se enmarca en una estrategia más amplia de Apple para depender menos de proveedores externos en componentes clave de sus dispositivos.",
+    "author": "Redacción Tech",
+    "category": "Apple",
+    "imageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T03:26:26.808Z"
+  },
+  {
+    "id": "009001af-3571-4dfc-9b96-02000c17b6c5",
+    "title": "AirPods 5: traducción en tiempo real y mejor cancelación de ruido",
+    "summary": "La nueva generación de audífonos de Apple suma traducción en tiempo real, mejoras en el ajuste y la resistencia al agua, con precios desde 149 euros.",
+    "content": "Los AirPods 5 llegan con una función que ha llamado especialmente la atención: traducción en tiempo real, que permite mantener una conversación con alguien que habla otro idioma mientras los audífonos traducen sobre la marcha. Apple también mejoró la cancelación activa de ruido y ajustó el diseño físico para lograr un mejor calce, además de aumentar la resistencia al agua respecto a la generación anterior.\n\nEn cuanto a precio, el modelo estándar se ofrece por 149 euros, mientras que la versión que incluye el estuche de carga mejorado cuesta 169 euros. Al igual que el resto de los productos anunciados en el evento, los AirPods 5 se pudieron reservar desde el día del anuncio, con disponibilidad general a partir de mediados de septiembre. La función de traducción en tiempo real se perfila como una de las apuestas más fuertes de Apple para diferenciar a sus audífonos frente a la competencia, en un mercado donde el hardware de audífonos inalámbricos se ha vuelto cada vez más similar entre marcas.",
+    "author": "Redacción Tech",
+    "category": "Apple",
+    "imageUrl": "https://images.unsplash.com/photo-1603351154351-5e2d0600bb77?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T03:26:26.810Z"
+  },
+  {
+    "id": "75e2dc24-cec0-486b-9399-a4c8f4e347e0",
+    "title": "Apple Watch Series 12 y Ultra 4: salud más precisa en la muñeca",
+    "summary": "Los nuevos relojes de Apple llegan con mediciones de ritmo cardíaco más precisas. El Series 12 se ofrece por 399 dólares y el Ultra 4 por 799 dólares.",
+    "content": "Apple renovó su línea de relojes inteligentes con el Apple Watch Series 12 y el Apple Watch Ultra 4, ambos enfocados en mejorar la precisión de las mediciones de salud, particularmente el ritmo cardíaco. Aunque el diseño externo mantiene la línea de generaciones recientes, las mejoras internas apuntan a hacer de estos relojes una herramienta de monitoreo más confiable para el uso diario y para actividades deportivas exigentes.\n\nEl Apple Watch Series 12 se posiciona como la opción más accesible de la línea, con un precio de 399 dólares, mientras que el Ultra 4, pensado para deportes extremos y uso profesional, se ofrece por 799 dólares. Ambos modelos llegan acompañados de watchOS actualizado, integrado con las nuevas funciones de salud y con mejor interoperabilidad con el resto de dispositivos Apple presentados en el evento, incluyendo el iPhone 18 Pro y el iPhone Duo.",
+    "author": "Redacción Tech",
+    "category": "Apple",
+    "imageUrl": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T03:26:26.813Z"
+  },
+  {
+    "id": "e2efecab-62b1-4da3-b668-fffb66bb3327",
+    "title": "iOS 27: las novedades de software que acompañan a la nueva generación de iPhone",
+    "summary": "El nuevo sistema operativo centraliza las funciones de inteligencia artificial de Apple y añade soporte especial para el formato plegable del iPhone Duo.",
+    "content": "iOS 27 llega como el sistema operativo que acompaña a toda la nueva generación de iPhone presentada en el evento, incluyendo el iPhone 18 Pro, el iPhone 18 Pro Max y el inédito iPhone Duo. Una de sus funciones centrales es la integración más profunda de las capacidades de inteligencia artificial de Apple directamente en el sistema, en lugar de mantenerlas como funciones aisladas dentro de aplicaciones específicas.\n\nPara el iPhone Duo en particular, iOS 27 incorpora ajustes de interfaz pensados para el formato plegable: la posibilidad de mostrar dos aplicaciones simultáneamente al desplegar la pantalla, transiciones más fluidas entre la pantalla exterior e interior, y adaptaciones visuales para aprovechar el espacio adicional sin que las aplicaciones se vean simplemente \"estiradas\". Como suele ocurrir con cada nueva versión de iOS, la actualización llegará también a modelos de iPhone de generaciones anteriores compatibles, aunque algunas de las funciones más nuevas estarán limitadas al hardware más reciente.",
+    "author": "Redacción Tech",
+    "category": "Apple",
+    "imageUrl": "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T03:26:26.816Z"
+  },
+  {
+    "id": "530065e3-901e-4a7e-b97c-1c47401c4dab",
+    "title": "Fin de una era: Tim Cook deja la dirección de Apple y John Ternus toma el mando",
+    "summary": "Tras 15 años como CEO, Tim Cook pasó a presidente ejecutivo el 1 de septiembre de 2026, dejando el cargo a John Ternus, quien lideraba la ingeniería de hardware de la compañía.",
+    "content": "El evento \"Surprise and Shine\" tuvo un significado especial más allá de los productos presentados: fue la primera keynote conducida por John Ternus como CEO de Apple. La transición se había anunciado meses antes, el 20 de abril de 2026, cuando Apple confirmó que Tim Cook pasaría a ocupar el cargo de presidente ejecutivo (executive chairman), mientras que Ternus, hasta entonces vicepresidente senior de Ingeniería de Hardware, asumiría la dirección general de la compañía a partir del 1 de septiembre.\n\nCook había liderado Apple durante 15 años, tomando el relevo de Steve Jobs en 2011 y llevando a la compañía a convertirse en una de las más valiosas del mundo. Ternus, ingeniero mecánico con 25 años en la empresa, estuvo detrás de la producción de gran parte del hardware más reconocido de Apple, desde computadoras hasta iPhones. Como presidente ejecutivo, Cook continuará apoyando a la compañía en ciertas áreas, incluyendo la relación con reguladores y gobiernos en distintas partes del mundo, mientras Ternus asume el control de la estrategia general del negocio.",
+    "author": "Redacción Tech",
+    "category": "Apple",
+    "imageUrl": "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T03:26:26.819Z"
+  },
+  {
+    "id": "c488c088-87c4-48a4-a0fd-8d9e58935fcc",
+    "title": "iPhone Duo frente a los plegables de Samsung: ¿qué cambia con la llegada de Apple?",
+    "summary": "Samsung lleva años perfeccionando sus teléfonos plegables tipo libro. La entrada de Apple a esta categoría podría acelerar su adopción masiva. Un análisis del contexto.",
+    "content": "Los teléfonos plegables tipo libro, con una pantalla exterior compacta y una interior más grande al desplegarse, no son un concepto nuevo: Samsung ha refinado su línea Galaxy Z Fold durante varias generaciones, mejorando con el tiempo aspectos como la línea de pliegue, el grosor del dispositivo y la resistencia general. Durante años, sin embargo, esta categoría se mantuvo como un nicho relativamente pequeño dentro del mercado de teléfonos de alta gama, en parte por su precio elevado y algunas limitaciones de durabilidad en las primeras generaciones.\n\nLa entrada de Apple a este formato con el iPhone Duo cambia el panorama de una forma particular: históricamente, cuando Apple adopta una categoría de producto ya explorada por otros fabricantes, suele actuar como una señal de que esa tecnología alcanzó cierta madurez para el público masivo. Esto no significa que el iPhone Duo sea necesariamente superior en specs a los plegables ya existentes en el mercado, sino que su llegada podría acelerar la adopción general de este formato, empujando tanto a fabricantes de hardware como a desarrolladores de aplicaciones a optimizar más su software para pantallas plegables, algo que hasta ahora ha sido un punto débil recurrente en esta categoría de dispositivos.",
+    "author": "Redacción Tech",
+    "category": "Apple",
+    "imageUrl": "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T03:26:26.823Z"
+  },
+  {
+    "id": "47443e4f-c14b-4c58-b757-ce1b49e48bcc",
+    "title": "Qué falta por llegar: iPhone 18 estándar, iPhone Air 2 e iPhone 18e en 2027",
+    "summary": "Apple no presentó toda su línea 2026 en septiembre. El iPhone 18 estándar, el iPhone 18e y un renovado iPhone Air llegarían recién en la primavera de 2027.",
+    "content": "A diferencia de años anteriores, donde Apple solía presentar toda su línea de iPhone en un único evento de septiembre, la compañía optó esta vez por escalonar los lanzamientos. Mientras que el iPhone 18 Pro, el iPhone 18 Pro Max y el iPhone Duo ya fueron presentados y tienen fecha de disponibilidad este mismo año, el iPhone 18 estándar quedó fuera del evento de septiembre.\n\nSegún lo adelantado por Apple, el iPhone 18 \"a secas\" llegaría recién en la primavera de 2027, acompañado por dos modelos adicionales: el iPhone 18e, la versión más accesible de la línea, y una renovación del iPhone Air. Este cambio en el calendario de lanzamientos representa un ajuste respecto al formato tradicional de \"todo en septiembre\", y podría responder tanto a razones de producción (dar más tiempo para fabricar el complejo iPhone Duo a gran escala) como a una estrategia comercial para mantener el interés del público repartido a lo largo de todo el año, en lugar de concentrar todos los anuncios en una sola fecha.",
+    "author": "Redacción Tech",
+    "category": "Apple",
+    "imageUrl": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=1200&q=82",
+    "createdAt": "2026-09-10T03:26:26.827Z"
+  }
+]

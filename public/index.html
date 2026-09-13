@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Binario — Blog de Tecnología</title>
+  <meta name="description" content="Artículos claros y directos sobre inteligencia artificial, ciberseguridad, espacio, robótica, blockchain y mucho más. Tecnología explicada sin relleno.">
+  <link rel="canonical" href="/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Binario — Blog de Tecnología">
+  <meta property="og:description" content="Artículos claros y directos sobre inteligencia artificial, ciberseguridad, espacio, robótica, blockchain y mucho más.">
+  <meta name="twitter:card" content="summary">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="index.html" class="logo">Binario</a>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="articulos.html">Artículos</a></li>
+        <li><a href="publicar.html">Publicar</a></li>
+        <li><a href="#suscribete">Suscríbete</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">☰</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-decor" aria-hidden="true">
+        <span class="hero-shape hero-shape-1"></span>
+        <span class="hero-shape hero-shape-2"></span>
+        <span class="hero-shape hero-shape-3"></span>
+        <span class="hero-float hero-float-1">🤖</span>
+        <span class="hero-float hero-float-2">🔒</span>
+        <span class="hero-float hero-float-3">🚀</span>
+        <span class="hero-float hero-float-4">🧬</span>
+        <span class="hero-float hero-float-5">⚛️</span>
+        <span class="hero-float hero-float-6">💾</span>
+      </div>
+      <div class="hero-grid">
+        <div class="hero-content">
+          <span class="hero-badge">📡 Binario — Blog de tecnología</span>
+          <h1>Entiende la tecnología que está cambiando el mundo</h1>
+          <p>Artículos claros y directos sobre inteligencia artificial, ciberseguridad, espacio, robótica y mucho más — sin relleno ni jerga innecesaria.</p>
+          <div class="hero-cta">
+            <a href="articulos.html" class="btn">Explorar artículos</a>
+            <a href="#suscribete" class="btn btn-outline">Suscríbete gratis</a>
+          </div>
+          <div class="hero-stats" id="heroStats"></div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="mockup-card mockup-card-back"></div>
+          <div class="mockup-card mockup-card-front">
+            <div class="mockup-bar">
+              <span class="mockup-dot"></span>
+              <span class="mockup-dot"></span>
+              <span class="mockup-dot"></span>
+              <span class="mockup-url">binario.app</span>
+            </div>
+            <div class="mockup-body">
+              <div class="mockup-row">
+                <div class="mockup-thumb"></div>
+                <div class="mockup-lines"><span></span><span></span></div>
+              </div>
+              <div class="mockup-row">
+                <div class="mockup-thumb"></div>
+                <div class="mockup-lines"><span></span><span></span></div>
+              </div>
+              <div class="mockup-row">
+                <div class="mockup-thumb"></div>
+                <div class="mockup-lines"><span></span><span></span></div>
+              </div>
+            </div>
+          </div>
+          <div class="mockup-badge">📚 +50 artículos</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-bottom: 1rem;">
+      <h2 class="section-subtitle">Explora por categoría</h2>
+      <div class="category-chips" id="categoryChips"></div>
+    </section>
+
+    <section class="section section-sm" id="trendingCategorySection" hidden>
+      <div class="section-header-row">
+        <div>
+          <p class="eyebrow">Categoría del momento</p>
+          <h2 id="trendingCategoryTitle">...</h2>
+        </div>
+        <a id="trendingCategoryLink" href="articulos.html" class="link-more">Ver categoría →</a>
+      </div>
+      <div class="trending-category-grid" id="trendingCategoryGrid"></div>
+    </section>
+
+    <section class="section section-compact">
+      <div class="lead-magnet">
+        <div class="lead-copy">
+          <p class="eyebrow">Gratis</p>
+          <h2>La guía de herramientas que realmente te ahorra tiempo</h2>
+          <p>Recibe una selección curada con IA, apps, recursos y atajos para trabajar más rápido y smarter.</p>
+          <ul class="lead-list">
+            <li>Herramientas útiles para productividad</li>
+            <li>Recursos de IA que realmente valen la pena</li>
+            <li>Checklist rápida para empezar con confianza</li>
+          </ul>
+        </div>
+        <div class="lead-panel">
+          <p class="lead-panel-label">Descarga gratis</p>
+          <h3>Guía Binario: 20 herramientas tech que valen la pena</h3>
+          <form class="lead-form" id="leadMagnetForm">
+            <input type="email" id="leadEmail" name="email" placeholder="tu@correo.com" required>
+            <button type="submit" class="btn">Quiero la guía</button>
+          </form>
+          <p class="lead-aux-text">O mira la oferta completa en <a href="newsletter.html">la página de la newsletter</a>.</p>
+          <p id="leadMagnetStatus" class="form-status" hidden></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-compact">
+      <div class="articles-header">
+        <h2>Guías rápidas</h2>
+        <a href="articulos.html" class="link-more">Ver todas →</a>
+      </div>
+      <div class="guides-grid">
+        <article class="guide-card">
+          <span class="guide-icon">🤖</span>
+          <h3>IA para trabajar mejor</h3>
+          <p>Checklist con herramientas, prompts y casos de uso útiles para el día a día.</p>
+          <a href="articulos.html?category=Inteligencia%20Artificial" class="guide-link">Ver más</a>
+        </article>
+        <article class="guide-card">
+          <span class="guide-icon">🔐</span>
+          <h3>Cybersecurity essentials</h3>
+          <p>Cómo protegerte sin volverte experto en seguridad en una tarde.</p>
+          <a href="articulos.html?category=Ciberseguridad" class="guide-link">Ver más</a>
+        </article>
+        <article class="guide-card">
+          <span class="guide-icon">⚡</span>
+          <h3>Herramientas que ahorran tiempo</h3>
+          <p>Apps y flujos para automatizar tareas, mejorar productividad y reducir fricción.</p>
+          <a href="articulos.html" class="guide-link">Ver más</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top: 1rem;">
+      <div class="articles-header">
+        <h2>Últimas noticias</h2>
+        <a href="articulos.html" class="link-more">Ver todos los artículos →</a>
+      </div>
+      <div class="article-grid" id="featuredGrid"></div>
+    </section>
+
+    <section class="section" id="spotlightSection" hidden>
+      <div class="articles-header">
+        <h2 id="spotlightTitle">Cobertura especial</h2>
+        <a href="articulos.html" class="link-more" id="spotlightLink">Ver toda la cobertura →</a>
+      </div>
+      <div class="article-grid" id="spotlightGrid"></div>
+    </section>
+
+    <div class="section" style="padding-top: 0;">
+      <div class="ad-slot" data-ad-slot-key="header"></div>
+    </div>
+
+    <div id="categorySections"></div>
+
+    <section class="section section-alt">
+      <h2>Por qué leer este blog</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>🧠 Profundidad sin jerga</h3>
+          <p>Explicamos temas complejos —de computación cuántica a biotecnología— de forma clara, sin sacrificar precisión.</p>
+        </div>
+        <div class="card">
+          <h3>📚 Una biblioteca en crecimiento</h3>
+          <p>Contenido organizado por categoría para que encuentres justo lo que te interesa, sin perder tiempo buscando.</p>
+        </div>
+        <div class="card">
+          <h3>🌍 Todas las áreas de la tecnología</h3>
+          <p>Desde IA y ciberseguridad hasta espacio, robótica y sostenibilidad: si es tecnología, lo cubrimos.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="suscribete" class="section">
+      <h2>No te pierdas los nuevos artículos</h2>
+      <p>Déjanos tu correo y te avisamos cuando publiquemos contenido nuevo. Sin spam.</p>
+      <form class="contact-form" id="subscribeForm">
+        <label for="subEmail">Correo electrónico</label>
+        <input type="email" id="subEmail" name="email" required placeholder="tú@correo.com">
+        <button type="submit" class="btn">Suscribirme</button>
+      </form>
+      <p id="subscribeStatus" class="form-status" hidden></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Binario. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script src="js/ads.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Newsletter | Binario</title>
+  <meta name="description" content="Recibe la guía gratuita de herramientas tech, recursos útiles y análisis de la semana en Binario.">
+  <link rel="canonical" href="/newsletter.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="index.html" class="logo">Binario</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="articulos.html">Artículos</a></li>
+        <li><a href="publicar.html">Publicar</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">☰</button>
+    </nav>
+  </header>
+
+  <main class="newsletter-shell">
+    <section class="newsletter-hero">
+      <div>
+        <p class="eyebrow">Binario Weekly</p>
+        <h1>La mejor selección de tecnología, sin ruido.</h1>
+        <p>Recibe cada semana una guía breve con herramientas útiles, análisis de tendencias y recursos que realmente importan.</p>
+        <ul class="check-list">
+          <li>Ideas de negocio y productividad</li>
+          <li>Herramientas de IA y software útil</li>
+          <li>Selección semanal de lo más relevante</li>
+        </ul>
+      </div>
+
+      <div class="newsletter-box">
+        <h3>Descarga la guía gratis</h3>
+        <form class="newsletter-form" id="newsletterForm">
+          <input type="email" id="newsletterEmail" name="email" placeholder="tu@correo.com" required>
+          <button type="submit" class="btn">Quiero la guía</button>
+        </form>
+        <p id="newsletterStatus" class="form-status" hidden></p>
+      </div>
+    </section>
+
+    <section class="newsletter-grid">
+      <article class="newsletter-card">
+        <h3>📌 Qué recibes</h3>
+        <p>Una edición semanal con herramientas, noticias útiles y recursos para aprender más rápido.</p>
+      </article>
+      <article class="newsletter-card">
+        <h3>🧠 Qué te aporta</h3>
+        <p>Más contexto, menos ruido y una curation útil para estar informado sin perder tiempo.</p>
+      </article>
+      <article class="newsletter-card">
+        <h3>⚡ Qué esperar</h3>
+        <p>Contenidos prácticos, explicaciones claras y recomendaciones que puedes aplicar hoy mismo.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Binario. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script>
+    const newsletterForm = document.getElementById('newsletterForm');
+    const newsletterStatus = document.getElementById('newsletterStatus');
+
+    if (newsletterForm) {
+      newsletterForm.addEventListener('submit', async (event) => {
+        event.preventDefault();
+        const email = document.getElementById('newsletterEmail').value.trim();
+
+        newsletterStatus.hidden = true;
+        newsletterStatus.classList.remove('form-status-error');
+
+        try {
+          const response = await fetch('/api/subscribers', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email }),
+          });
+
+          const data = await response.json();
+          if (!response.ok) throw new Error(data.error || 'No se pudo completar la suscripción');
+
+          newsletterStatus.hidden = false;
+          newsletterStatus.textContent = '¡Perfecto! La guía llegará a tu correo.';
+          newsletterForm.reset();
+        } catch (error) {
+          newsletterStatus.hidden = false;
+          newsletterStatus.classList.add('form-status-error');
+          newsletterStatus.textContent = error.message;
+        }
+      });
+    }
+  </script>
+</body>
+</html>
