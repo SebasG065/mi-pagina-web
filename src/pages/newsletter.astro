@@ -1,0 +1,85 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout
+  title="Newsletter | Binario"
+  description="Recibe la guía gratuita de herramientas tech, recursos útiles y análisis de la semana en Binario."
+  path="/newsletter"
+>
+  <main class="newsletter-shell">
+    <section class="newsletter-hero">
+      <div>
+        <p class="eyebrow">Binario Weekly</p>
+        <h1>La mejor selección de tecnología, sin ruido.</h1>
+        <p>
+          Recibe cada semana una guía breve con herramientas útiles, análisis de
+          tendencias y recursos que realmente importan.
+        </p>
+        <ul class="check-list">
+          <li>Ideas de negocio y productividad</li>
+          <li>Herramientas de IA y software útil</li>
+          <li>Selección semanal de lo más relevante</li>
+        </ul>
+      </div>
+
+      <div class="newsletter-box">
+        <h3>Descarga la guía gratis</h3>
+        <form class="newsletter-form" id="newsletterForm">
+          <input type="email" id="newsletterEmail" name="email" placeholder="tu@correo.com" required />
+          <button type="submit" class="btn">Quiero la guía</button>
+        </form>
+        <p id="newsletterStatus" class="form-status" hidden></p>
+      </div>
+    </section>
+
+    <section class="newsletter-grid">
+      <article class="newsletter-card">
+        <h3>📌 Qué recibes</h3>
+        <p>Una edición semanal con herramientas, noticias útiles y recursos para aprender más rápido.</p>
+      </article>
+      <article class="newsletter-card">
+        <h3>🧠 Qué te aporta</h3>
+        <p>Más contexto, menos ruido y una curation útil para estar informado sin perder tiempo.</p>
+      </article>
+      <article class="newsletter-card">
+        <h3>⚡ Qué esperar</h3>
+        <p>Contenidos prácticos, explicaciones claras y recomendaciones que puedes aplicar hoy mismo.</p>
+      </article>
+    </section>
+  </main>
+
+  <script>
+    const newsletterForm = document.getElementById("newsletterForm");
+    const newsletterStatus = document.getElementById("newsletterStatus");
+
+    if (newsletterForm && newsletterStatus) {
+      newsletterForm.addEventListener("submit", async (event) => {
+        event.preventDefault();
+        const email = document.getElementById("newsletterEmail").value.trim();
+
+        newsletterStatus.hidden = true;
+        newsletterStatus.classList.remove("form-status-error");
+
+        try {
+          const response = await fetch("/api/subscribers", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ email }),
+          });
+
+          const data = await response.json();
+          if (!response.ok) throw new Error(data.error || "No se pudo completar la suscripción");
+
+          newsletterStatus.hidden = false;
+          newsletterStatus.textContent = "¡Perfecto! La guía llegará a tu correo.";
+          newsletterForm.reset();
+        } catch (error) {
+          newsletterStatus.hidden = false;
+          newsletterStatus.classList.add("form-status-error");
+          newsletterStatus.textContent = error.message;
+        }
+      });
+    }
+  </script>
+</Layout>

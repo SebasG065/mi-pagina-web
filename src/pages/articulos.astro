@@ -1,0 +1,70 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ArticleCard from "../components/ArticleCard.astro";
+import { readArticles } from "../lib/articles.js";
+
+const ARTICLES_PER_AD = 6;
+
+const allArticles = readArticles().sort(
+  (a, b) => new Date(b.createdAt) - new Date(a.createdAt)
+);
+const categories = [...new Set(allArticles.map((a) => a.category))].sort();
+
+const selectedCategory = Astro.url.searchParams.get("category") || "";
+const articles = selectedCategory
+  ? allArticles.filter((a) => a.category === selectedCategory)
+  : allArticles;
+---
+
+<Layout
+  title="Artículos de Tecnología | Binario"
+  description="Explora artículos de tecnología organizados por categoría: inteligencia artificial, ciberseguridad, espacio, robótica, hardware, blockchain y más."
+  path={selectedCategory ? `/articulos?category=${encodeURIComponent(selectedCategory)}` : "/articulos"}
+>
+  <main class="section">
+    <div class="articles-header">
+      <h1>Artículos de Tecnología</h1>
+      <a href="/publicar" class="btn">+ Nuevo artículo</a>
+    </div>
+
+    <div class="filter-bar">
+      <label for="categoryFilter">Categoría:</label>
+      <select
+        id="categoryFilter"
+        onchange="location.href = this.value ? `/articulos?category=${encodeURIComponent(this.value)}` : '/articulos'"
+      >
+        <option value="" selected={!selectedCategory}>Todas</option>
+        {
+          categories.map((category) => (
+            <option value={category} selected={category === selectedCategory}>
+              {category}
+            </option>
+          ))
+        }
+      </select>
+    </div>
+
+    {
+      articles.length === 0 && (
+        <p class="empty-state">
+          Todavía no hay artículos. <a href="/publicar">Sé el primero en publicar uno</a>.
+        </p>
+      )
+    }
+
+    <div class="ad-slot" data-ad-slot-key="header"></div>
+
+    <div class="article-grid">
+      {
+        articles.map((article, index) => (
+          <>
+            <ArticleCard article={article} showIcon={false} />
+            {(index + 1) % ARTICLES_PER_AD === 0 && index !== articles.length - 1 && (
+              <div class="ad-slot ad-slot-infeed" data-ad-slot-key="inFeed" />
+            )}
+          </>
+        ))
+      }
+    </div>
+  </main>
+</Layout>

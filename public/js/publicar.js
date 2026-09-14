@@ -33,7 +33,7 @@ articleForm.addEventListener("submit", async (event) => {
     }
 
     const article = await response.json();
-    window.location.href = `articulo.html?id=${encodeURIComponent(article.id)}`;
+    window.location.href = `/articulo/${encodeURIComponent(article.slug)}`;
   } catch (error) {
     formStatus.hidden = false;
     formStatus.textContent = error.message;

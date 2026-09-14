@@ -1,0 +1,305 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ArticleCard from "../components/ArticleCard.astro";
+import { readArticles } from "../lib/articles.js";
+
+const SPOTLIGHT_CATEGORY = "Apple";
+const SPOTLIGHT_TITLE = "Cobertura especial: Apple Event 2026";
+const CATEGORY_SECTIONS_LIMIT = 3;
+const ARTICLES_PER_CATEGORY_SECTION = 3;
+const TRENDING_CATEGORY_LIMIT = 3;
+
+const allArticles = readArticles().sort(
+  (a, b) => new Date(b.createdAt) - new Date(a.createdAt)
+);
+const categories = [...new Set(allArticles.map((a) => a.category))].sort();
+const featured = allArticles.slice(0, 6);
+
+const spotlightArticles = allArticles
+  .filter((a) => a.category === SPOTLIGHT_CATEGORY)
+  .slice(0, 4);
+
+const byCategoryAll = new Map();
+allArticles.forEach((a) => {
+  if (!byCategoryAll.has(a.category)) byCategoryAll.set(a.category, []);
+  byCategoryAll.get(a.category).push(a);
+});
+const trendingEntry = [...byCategoryAll.entries()].sort(
+  (a, b) => b[1].length - a[1].length
+)[0];
+const trendingCategory = trendingEntry ? trendingEntry[0] : null;
+const trendingArticles = trendingEntry
+  ? trendingEntry[1].slice(0, TRENDING_CATEGORY_LIMIT)
+  : [];
+
+const byCategoryRest = new Map();
+allArticles.forEach((a) => {
+  if (a.category === SPOTLIGHT_CATEGORY) return;
+  if (!byCategoryRest.has(a.category)) byCategoryRest.set(a.category, []);
+  byCategoryRest.get(a.category).push(a);
+});
+const topCategorySections = [...byCategoryRest.entries()]
+  .sort((a, b) => b[1].length - a[1].length)
+  .slice(0, CATEGORY_SECTIONS_LIMIT);
+---
+
+<Layout
+  title="Binario — Blog de Tecnología"
+  description="Artículos claros y directos sobre inteligencia artificial, ciberseguridad, espacio, robótica, blockchain y mucho más. Tecnología explicada sin relleno."
+  path="/"
+>
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-decor" aria-hidden="true">
+        <span class="hero-shape hero-shape-1"></span>
+        <span class="hero-shape hero-shape-2"></span>
+        <span class="hero-shape hero-shape-3"></span>
+        <span class="hero-float hero-float-1">🤖</span>
+        <span class="hero-float hero-float-2">🔒</span>
+        <span class="hero-float hero-float-3">🚀</span>
+        <span class="hero-float hero-float-4">🧬</span>
+        <span class="hero-float hero-float-5">⚛️</span>
+        <span class="hero-float hero-float-6">💾</span>
+      </div>
+      <div class="hero-grid">
+        <div class="hero-content">
+          <span class="hero-badge">📡 Binario — Blog de tecnología</span>
+          <h1>Entiende la tecnología que está cambiando el mundo</h1>
+          <p>
+            Artículos claros y directos sobre inteligencia artificial, ciberseguridad,
+            espacio, robótica y mucho más — sin relleno ni jerga innecesaria.
+          </p>
+          <div class="hero-cta">
+            <a href="/articulos" class="btn">Explorar artículos</a>
+            <a href="#suscribete" class="btn btn-outline">Suscríbete gratis</a>
+          </div>
+          <div class="hero-stats">
+            <span><strong>{allArticles.length}</strong>artículos publicados</span>
+            <span><strong>{categories.length}</strong>categorías</span>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="mockup-card mockup-card-back"></div>
+          <div class="mockup-card mockup-card-front">
+            <div class="mockup-bar">
+              <span class="mockup-dot"></span>
+              <span class="mockup-dot"></span>
+              <span class="mockup-dot"></span>
+              <span class="mockup-url">binario.app</span>
+            </div>
+            <div class="mockup-body">
+              <div class="mockup-row">
+                <div class="mockup-thumb"></div>
+                <div class="mockup-lines"><span></span><span></span></div>
+              </div>
+              <div class="mockup-row">
+                <div class="mockup-thumb"></div>
+                <div class="mockup-lines"><span></span><span></span></div>
+              </div>
+              <div class="mockup-row">
+                <div class="mockup-thumb"></div>
+                <div class="mockup-lines"><span></span><span></span></div>
+              </div>
+            </div>
+          </div>
+          <div class="mockup-badge">📚 +50 artículos</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-bottom: 1rem;">
+      <h2 class="section-subtitle">Explora por categoría</h2>
+      <div class="category-chips">
+        {
+          categories.map((category) => (
+            <a class="chip" href={`/articulos?category=${encodeURIComponent(category)}`}>
+              {category}
+            </a>
+          ))
+        }
+      </div>
+    </section>
+
+    {
+      trendingCategory && trendingArticles.length > 0 && (
+        <section class="section section-sm">
+          <div class="section-header-row">
+            <div>
+              <p class="eyebrow">Categoría del momento</p>
+              <h2>{trendingCategory}</h2>
+            </div>
+            <a
+              href={`/articulos?category=${encodeURIComponent(trendingCategory)}`}
+              class="link-more"
+            >
+              Ver categoría →
+            </a>
+          </div>
+          <div class="trending-category-grid">
+            {trendingArticles.map((article) => (
+              <ArticleCard article={article} />
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    <section class="section section-compact">
+      <div class="lead-magnet">
+        <div class="lead-copy">
+          <p class="eyebrow">Gratis</p>
+          <h2>La guía de herramientas que realmente te ahorra tiempo</h2>
+          <p>
+            Recibe una selección curada con IA, apps, recursos y atajos para trabajar más
+            rápido y smarter.
+          </p>
+          <ul class="lead-list">
+            <li>Herramientas útiles para productividad</li>
+            <li>Recursos de IA que realmente valen la pena</li>
+            <li>Checklist rápida para empezar con confianza</li>
+          </ul>
+        </div>
+        <div class="lead-panel">
+          <p class="lead-panel-label">Descarga gratis</p>
+          <h3>Guía Binario: 20 herramientas tech que valen la pena</h3>
+          <form class="lead-form" id="leadMagnetForm">
+            <input type="email" id="leadEmail" name="email" placeholder="tu@correo.com" required />
+            <button type="submit" class="btn">Quiero la guía</button>
+          </form>
+          <p class="lead-aux-text">
+            O mira la oferta completa en <a href="/newsletter">la página de la newsletter</a>.
+          </p>
+          <p id="leadMagnetStatus" class="form-status" hidden></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-compact">
+      <div class="articles-header">
+        <h2>Guías rápidas</h2>
+        <a href="/articulos" class="link-more">Ver todas →</a>
+      </div>
+      <div class="guides-grid">
+        <article class="guide-card">
+          <span class="guide-icon">🤖</span>
+          <h3>IA para trabajar mejor</h3>
+          <p>Checklist con herramientas, prompts y casos de uso útiles para el día a día.</p>
+          <a href="/articulos?category=Inteligencia%20Artificial" class="guide-link">Ver más</a>
+        </article>
+        <article class="guide-card">
+          <span class="guide-icon">🔐</span>
+          <h3>Cybersecurity essentials</h3>
+          <p>Cómo protegerte sin volverte experto en seguridad en una tarde.</p>
+          <a href="/articulos?category=Ciberseguridad" class="guide-link">Ver más</a>
+        </article>
+        <article class="guide-card">
+          <span class="guide-icon">⚡</span>
+          <h3>Herramientas que ahorran tiempo</h3>
+          <p>Apps y flujos para automatizar tareas, mejorar productividad y reducir fricción.</p>
+          <a href="/articulos" class="guide-link">Ver más</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top: 1rem;">
+      <div class="articles-header">
+        <h2>Últimas noticias</h2>
+        <a href="/articulos" class="link-more">Ver todos los artículos →</a>
+      </div>
+      <div class="article-grid">
+        {featured.map((article) => (
+          <ArticleCard article={article} />
+        ))}
+      </div>
+    </section>
+
+    {
+      spotlightArticles.length > 0 && (
+        <section class="section">
+          <div class="articles-header">
+            <h2>{SPOTLIGHT_TITLE}</h2>
+            <a
+              href={`/articulos?category=${encodeURIComponent(SPOTLIGHT_CATEGORY)}`}
+              class="link-more"
+            >
+              Ver toda la cobertura →
+            </a>
+          </div>
+          <div class="article-grid">
+            {spotlightArticles.map((article) => (
+              <ArticleCard article={article} />
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    <div class="section" style="padding-top: 0;">
+      <div class="ad-slot" data-ad-slot-key="header"></div>
+    </div>
+
+    <div>
+      {
+        topCategorySections.map(([category, categoryArticles], index) => (
+          <section
+            class={`section${index % 2 === 0 ? " section-alt" : ""}`}
+            style="padding-top: 2.5rem; padding-bottom: 2.5rem;"
+          >
+            <div class="articles-header">
+              <h2>{category}</h2>
+              <a href={`/articulos?category=${encodeURIComponent(category)}`} class="link-more">
+                Ver más →
+              </a>
+            </div>
+            <div class="article-grid">
+              {categoryArticles.slice(0, ARTICLES_PER_CATEGORY_SECTION).map((article) => (
+                <ArticleCard article={article} />
+              ))}
+            </div>
+          </section>
+        ))
+      }
+    </div>
+
+    <section class="section section-alt">
+      <h2>Por qué leer este blog</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>🧠 Profundidad sin jerga</h3>
+          <p>
+            Explicamos temas complejos —de computación cuántica a biotecnología— de forma
+            clara, sin sacrificar precisión.
+          </p>
+        </div>
+        <div class="card">
+          <h3>📚 Una biblioteca en crecimiento</h3>
+          <p>
+            Contenido organizado por categoría para que encuentres justo lo que te
+            interesa, sin perder tiempo buscando.
+          </p>
+        </div>
+        <div class="card">
+          <h3>🌍 Todas las áreas de la tecnología</h3>
+          <p>
+            Desde IA y ciberseguridad hasta espacio, robótica y sostenibilidad: si es
+            tecnología, lo cubrimos.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="suscribete" class="section">
+      <h2>No te pierdas los nuevos artículos</h2>
+      <p>Déjanos tu correo y te avisamos cuando publiquemos contenido nuevo. Sin spam.</p>
+      <form class="contact-form" id="subscribeForm">
+        <label for="subEmail">Correo electrónico</label>
+        <input type="email" id="subEmail" name="email" required placeholder="tú@correo.com" />
+        <button type="submit" class="btn">Suscribirme</button>
+      </form>
+      <p id="subscribeStatus" class="form-status" hidden></p>
+    </section>
+  </main>
+
+  <script src="/js/home-forms.js" is:inline></script>
+</Layout>

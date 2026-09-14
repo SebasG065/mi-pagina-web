@@ -1,0 +1,44 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout
+  title="Publicar Artículo | Binario"
+  description="Publica un nuevo artículo en Binario."
+  path="/publicar"
+  noindex={true}
+>
+  <main class="section">
+    <h1>Publicar nuevo artículo</h1>
+    <form class="contact-form" id="articleForm">
+      <label for="title">Título</label>
+      <input type="text" id="title" name="title" required />
+
+      <label for="category">Categoría</label>
+      <input
+        type="text"
+        id="category"
+        name="category"
+        placeholder="Ej: Inteligencia Artificial, Hardware, Software"
+      />
+
+      <label for="author">Autor</label>
+      <input type="text" id="author" name="author" placeholder="Tu nombre" />
+
+      <label for="imageUrl">URL de imagen (opcional)</label>
+      <input type="url" id="imageUrl" name="imageUrl" placeholder="https://..." />
+
+      <label for="summary">Resumen breve</label>
+      <textarea id="summary" name="summary" rows="2" required></textarea>
+
+      <label for="content">Contenido</label>
+      <textarea id="content" name="content" rows="10" required></textarea>
+
+      <button type="submit" class="btn">Publicar artículo</button>
+    </form>
+    <p id="formStatus" class="form-status" hidden></p>
+  </main>
+
+  <script src="/js/admin-auth.js" is:inline></script>
+  <script src="/js/publicar.js" is:inline></script>
+</Layout>

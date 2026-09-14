@@ -2,11 +2,18 @@
   "name": "mi-pagina-web",
   "version": "1.0.0",
   "description": "Sitio web con blog de artículos de tecnología",
-  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "dev": "astro dev",
+    "build": "astro build",
+    "start": "node ./dist/server/entry.mjs",
+    "preview": "astro preview"
   },
   "dependencies": {
-    "express": "^4.19.2"
+    "@astrojs/node": "^11.1.5",
+    "astro": "^7.3.2"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
   }
 }
