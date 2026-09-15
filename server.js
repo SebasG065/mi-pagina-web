@@ -91,7 +91,7 @@ app.get("/sitemap.xml", (req, res) => {
   const baseUrl = getBaseUrl(req);
   const articles = readArticles();
 
-  const staticEntries = ["/", "/articulos.html", "/publicar.html", "/privacidad.html"].map(
+  const staticEntries = ["/", "/articulos.html", "/publicar.html", "/privacidad.html", "/sobre-nosotros.html", "/contacto.html"].map(
     (route) => `  <url><loc>${baseUrl}${route}</loc></url>`
   );
 
