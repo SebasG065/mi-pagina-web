@@ -150,6 +150,14 @@ app.get("/articulo.html", (req, res) => {
     ...(article.imageUrl ? { image: [article.imageUrl] } : {}),
   };
 
+  const paragraphs = article.content.split(/\n+/).filter(Boolean);
+  const midIndex = Math.ceil(paragraphs.length / 2);
+  const firstHalfHtml = paragraphs.slice(0, midIndex).map(escapeHtml).join("<br>");
+  const secondHalfHtml = paragraphs.slice(midIndex).map(escapeHtml).join("<br>");
+  const midArticleBlock = secondHalfHtml
+    ? `<div class="ad-slot" data-ad-slot-key="midArticle"></div><div class="article-body">${secondHalfHtml}</div>`
+    : "";
+
   const articleContent = `
     <a href="articulos.html" class="back-link">&larr; Volver a artículos</a>
     ${article.imageUrl ? `<img src="${escapeHtml(article.imageUrl)}" alt="${safeTitle}" class="article-detail-img">` : ""}
@@ -159,7 +167,8 @@ app.get("/articulo.html", (req, res) => {
       <span>Por ${escapeHtml(article.author)}</span>
       <span>${formatDateEs(article.createdAt)}</span>
     </div>
-    <div class="article-body">${escapeHtml(article.content).replace(/\n/g, "<br>")}</div>
+    <div class="article-body">${firstHalfHtml}</div>
+    ${midArticleBlock}
     <div class="ad-slot" id="articleAdSlot"></div>
     <button id="deleteBtn" class="btn btn-danger">Eliminar artículo</button>
   `;
